@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="LynxDrive_ControlSystems_001"
+      id="cf3384b8-4500-4ab5-94c2-7e733286ecd0"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="LynxDrive_ControlSystems_001"
+      id="cf3384b8-4500-4ab5-94c2-7e733286ecd0"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

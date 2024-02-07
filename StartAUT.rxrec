@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fc3a14a1-b5f6-447d-80ce-17f62bea0959"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="LynxDrive_ControlSystems_001">
+	</codegen>
+	<variables>
+		<var
+		id="8d2743df-e05d-4429-bee4-ebc08157b0f5"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Toro_Lynx\Output\Client\bin\LynxClient.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="e2150225-4b64-47f2-b85f-a60763e14d32"
+	name="LynxDrive_ControlSystems_001Repository"
+	relativepath="LynxDrive_ControlSystems_001Repository.rxrep">
+		<codegen
+		classname="LynxDrive_ControlSystems_001Repository"
+		namespace="LynxDrive_ControlSystems_001">
+		</codegen>
+		<rootfolder
+		id="e8ed7e89-4d41-4e82-9a50-cc271cb89461"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

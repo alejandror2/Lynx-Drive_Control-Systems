@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="44e8c118-4bca-4962-836c-b06b5dc79330"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="LynxDrive_ControlSystems_001">
+	</codegen>
+	<variables>
+		<var
+		id="5b76be58-c8de-4223-8b63-0a446213c60d"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="bf97fbef-709a-44b1-9a58-860c97be320e">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="e2150225-4b64-47f2-b85f-a60763e14d32"
+	name="LynxDrive_ControlSystems_001Repository"
+	relativepath="LynxDrive_ControlSystems_001Repository.rxrep">
+		<codegen
+		classname="LynxDrive_ControlSystems_001Repository"
+		namespace="LynxDrive_ControlSystems_001">
+		</codegen>
+		<rootfolder
+		id="e8ed7e89-4d41-4e82-9a50-cc271cb89461"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

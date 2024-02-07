@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{9C655C41-00A6-4347-B04E-F9F43B63D136}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LynxDrive_ControlSystems_001</RootNamespace>
+    <AssemblyName>LynxDrive_ControlSystems_001</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>214616f2-4ad2-4386-8dc1-ad926070ba56</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>18fc0a99-0328-47f2-a3f1-d1bedc11c8bd</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>2bd41fa4-f8db-4c2f-a7f6-ea178397d864</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ac2bc4a5-b304-41ea-a527-de5a70cc0745</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>2bd41fa4-f8db-4c2f-a7f6-ea178397d864</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b7e30933-1ee4-4911-ad90-2f6930c8b51f</id>
+    </Compile>
+    <Compile Include="LynxDrive_ControlSystems_001Repository.cs">
+      <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
+      <DependentUpon>LynxDrive_ControlSystems_001Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>723b64a9-dc21-49f9-8e32-c3453623a852</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>bccf8379-9928-447f-89cf-3cf479597862</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>35bdf6fd-f82f-4486-bd56-aee27baa9caf</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bfbba52d-e3a7-4912-bbc8-51afb5c8d286</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>35bdf6fd-f82f-4486-bd56-aee27baa9caf</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>306521a7-e1da-4c76-b5ef-3b97adec8b82</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>f2a880b0-8d55-4f8c-a43b-b1cc831ee685</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dbe0af6d-2853-47ad-9666-7022d4499009</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>f2a880b0-8d55-4f8c-a43b-b1cc831ee685</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a120237-8a25-4419-bf5c-1806daf05d80</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>b03a6dbd-437b-42e9-9641-acd91eebe085</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
+      <id>2bd41fa4-f8db-4c2f-a7f6-ea178397d864</id>
+      <recordtableid>44e8c118-4bca-4962-836c-b06b5dc79330</recordtableid>
+    </None>
+    <None Include="LynxDrive_ControlSystems_001Repository.rximg">
+      <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
+      <DependentUpon>LynxDrive_ControlSystems_001Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>aec55f4a-b7a0-40a6-8f89-fbc9b1fe6bff</id>
+    </None>
+    <None Include="LynxDrive_ControlSystems_001Repository.rxrep">
+      <id>214616f2-4ad2-4386-8dc1-ad926070ba56</id>
+      <repoid>e2150225-4b64-47f2-b85f-a60763e14d32</repoid>
+      <reporootid>e8ed7e89-4d41-4e82-9a50-cc271cb89461</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
+      <id>35bdf6fd-f82f-4486-bd56-aee27baa9caf</id>
+      <recordtableid>6dc788e7-cc12-477c-86b6-ef6bd20caf87</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
+      <id>f2a880b0-8d55-4f8c-a43b-b1cc831ee685</id>
+      <recordtableid>fc3a14a1-b5f6-447d-80ce-17f62bea0959</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LynxDrive_ControlSystems_001.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>85de4689-4794-4175-8ed7-286e2e47f3d0</id>
+    </Content>
+    <Content Include="LynxDrive_ControlSystems_001.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0b6926c5-8349-42fd-adfe-29b6796eb1ae</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

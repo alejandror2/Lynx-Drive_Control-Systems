@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="LynxDrive_ControlSystems_001Repository.rxrep" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="LynxDrive_ControlSystems_001.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="LynxDrive_ControlSystems_001Repository.rxrep" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

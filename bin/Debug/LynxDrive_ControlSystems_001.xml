@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LynxDrive_ControlSystems_001</name>
+    </assembly>
+    <members>
+        <member name="T:LynxDrive_ControlSystems_001.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:LynxDrive_ControlSystems_001.CloseAUT.repo">
+            <summary>
+            Holds an instance of the LynxDrive_ControlSystems_001Repository repository.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LynxDrive_ControlSystems_001.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository">
+            <summary>
+            The class representing the LynxDrive_ControlSystems_001Repository element repository.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the LynxDrive_ControlSystems_001Repository element repository.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.CS_HubLevel">
+            <summary>
+            The CS_HubLevel folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.CS_DBLevel">
+            <summary>
+            The CS_DBLevel folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.CS_StaLevel">
+            <summary>
+            The CS_StaLevel folder.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder">
+            <summary>
+            The CS_HubLevelFolder folder.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CS_HubLevel  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder.MainForm">
+            <summary>
+            The MainForm folder.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder">
+            <summary>
+            The MainFormAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MainForm  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.SmartHubRow1">
+            <summary>
+            The SmartHubRow1 item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.SmartHubRow1Info">
+            <summary>
+            The SmartHubRow1 item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status1Row1">
+            <summary>
+            The Status1Row1 item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status1Row1Info">
+            <summary>
+            The Status1Row1 item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status2Row1">
+            <summary>
+            The Status2Row1 item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status2Row1Info">
+            <summary>
+            The Status2Row1 item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NavigateRow1">
+            <summary>
+            The NavigateRow1 item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NavigateRow1Info">
+            <summary>
+            The NavigateRow1 item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NameRow1">
+            <summary>
+            The NameRow1 item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NameRow1Info">
+            <summary>
+            The NameRow1 item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.LinkRow1">
+            <summary>
+            The LinkRow1 item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.LinkRow1Info">
+            <summary>
+            The LinkRow1 item info.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder">
+            <summary>
+            The CS_DBLevelFolder folder.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CS_DBLevel  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder">
+            <summary>
+            The CS_StaLevelFolder folder.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CS_StaLevel  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:LynxDrive_ControlSystems_001.Recording1.repo">
+            <summary>
+            Holds an instance of the LynxDrive_ControlSystems_001Repository repository.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LynxDrive_ControlSystems_001.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:LynxDrive_ControlSystems_001.StartAUT.repo">
+            <summary>
+            Holds an instance of the LynxDrive_ControlSystems_001Repository repository.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LynxDrive_ControlSystems_001.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
