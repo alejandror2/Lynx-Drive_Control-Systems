@@ -10,3 +10,16 @@ C:\Users\alero\Documents\Ranorex\Projects\LynxDrive_ControlSystems_001\obj\x86\D
 C:\Users\alero\Documents\Ranorex\Projects\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.csproj.CopyComplete
 C:\Users\alero\Documents\Ranorex\Projects\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.exe
 C:\Users\alero\Documents\Ranorex\Projects\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.pdb
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LSM304Sta1.csv
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LynxDrive_ControlSystems_001.rxtmg
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LynxDrive_ControlSystems_001.rxtst
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LynxDrive_ControlSystems_001.exe.config
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LynxDrive_ControlSystems_001.xml
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LynxDrive_ControlSystems_001.exe
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LynxDrive_ControlSystems_001.pdb
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.csproj.AssemblyReference.cache
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.csproj.CoreCompileInputs.cache
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.csproj.CopyComplete
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.exe
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.pdb

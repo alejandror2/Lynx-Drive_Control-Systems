@@ -78,18 +78,6 @@ name="LynxDrive_ControlSystems_001Repository">
 				<item
 				addcaps="cell,accessible"
 				capname="cell"
-				comment="Hub Name IB"
-				id="d44dc902-ce98-436a-911e-308b6c008c38"
-				name="NameRow1"
-				refimgid="1db6d535-1038-4160-a4b0-6db72123aeca"
-				refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename='Name row 1']"
-				robustPath="/form[@controlname='MainForm']//cell[@accessiblename='Name row 1']"
-				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Name row 1']
-				</item>
-				<item
-				addcaps="cell,accessible"
-				capname="cell"
 				comment="Enable Sta Count X/1000"
 				id="10aa3498-a977-46b7-bb10-ca8d965f2320"
 				name="EnabledStationsRow1"
@@ -189,10 +177,157 @@ OTYbw4Ndepnk+HwBQqkz85MFZhfr3VjAqEbkaAAAAABJRU5ErkJggg==
 		isrooted="False"
 		name="CS_StaLevel"
 		searchtimeout="0ms">
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			comment="Access Row Num Is alway the same"
+			id="549b4da8-e2e2-4dc8-9a52-d662fb70880b"
+			name="rStationRow"
+			refimgid="d2e696fd-bcbf-4666-b3c6-e30d63240112"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$StationRowName and @accessiblevalue=$StationValue]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			comment="Hub Name IB"
+			id="d44dc902-ce98-436a-911e-308b6c008c38"
+			name="rNameRow"
+			refimgid="1db6d535-1038-4160-a4b0-6db72123aeca"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$NameRow]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="0cd80d2b-c0ac-423c-8eca-6b3a170c33fd"
+			name="rAreaRow"
+			refimgid="a0c927b5-a6bb-4419-b663-28212cc900d6"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename=$AreaRowName]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="658f57ad-76fb-4004-a84e-900852deb82d"
+			name="rHoleRow"
+			refimgid="5ff437c5-a4b6-4bb4-a51b-373df6e9acde"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename=$HoleRowName]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="d3cbcdda-ea7f-4099-be89-9f04d35a417f"
+			name="rTagRow"
+			refimgid="1af4d53b-13c6-4e05-b6a9-cc1371559a94"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename=$TagRowName]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="08478689-ddee-4ec4-b6cb-55f925da05ba"
+			name="rNOSRow"
+			refimgid="8b82fc01-4e58-47bc-b18a-a5ca82d5d513"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename&gt;$NOSRowName]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="1530c954-7c79-457d-9188-66de882f8ee8"
+			name="rLSMAddressRow"
+			refimgid="f596efe2-943c-4718-885b-d816008273e6"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename=$AddRowName]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="49cf8ac9-62fe-4ea4-a43a-d3b6f79a6baf"
+			name="rLSMOffsetRow"
+			refimgid="c92af584-9ed7-43a0-8ab8-8a61365a4259"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename=$OffsetRowName]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="b522160e-cc44-4eda-bd08-9605569dab88"
+			name="rWirePathRow"
+			refimgid="14164233-d18b-4613-9e44-a2743f8615f7"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename=$WPRowName]
+			</item>
 		</folder>
 		<basepath>
 		</basepath>
 	</rootfolder>
 	<variables>
+		<var
+		id="77bdd520-64cd-46be-a2e2-dc851795f7bd"
+		name="StationValue">
+			1-1-1
+		</var>
+		<var
+		id="a4e91265-a12c-4215-bde2-acad0df40c23"
+		name="StationRowName">
+			Station row 1
+		</var>
+		<var
+		id="898adc18-b057-4177-8a0e-754df65b9419"
+		name="StationAccessRow">
+			Row 1
+		</var>
+		<var
+		id="07066385-055b-4be8-a01e-c1e9f82842c4"
+		name="NameRow">
+			Name row 1
+		</var>
+		<var
+		id="141718b8-68d4-4a5a-ab7e-93bdd41d190a"
+		name="AreaRowName">
+			Area row 1
+		</var>
+		<var
+		id="5858e01a-02b5-438b-ae94-d1a9df8c7031"
+		name="HoleRowName">
+			Hole row 1
+		</var>
+		<var
+		id="8287f9e7-c863-4c14-a72f-753d261041b5"
+		name="TagRowName">
+			Tag row 1
+		</var>
+		<var
+		id="bc7f217f-b88a-40b9-bd85-5cd8cb54463b"
+		name="NOSRowName">
+			Number of Sprinklers row
+		</var>
+		<var
+		id="0d76ec27-31fa-4f97-827f-334f6c7c7d43"
+		name="AddRowName">
+			LSMAddress row 1
+		</var>
+		<var
+		id="787b90f2-d2d3-462c-a002-3d0b686e34e9"
+		name="OffsetRowName">
+			LSMOffset row 1
+		</var>
+		<var
+		id="26e7a50c-7c1f-45e9-8726-8474123b75f4"
+		name="WPRowName">
+			Wire Path row 1
+		</var>
 	</variables>
 </repository>

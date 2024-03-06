@@ -4,49 +4,23 @@
         <name>LynxDrive_ControlSystems_001</name>
     </assembly>
     <members>
-        <member name="T:LynxDrive_ControlSystems_001.CloseAUT">
-             <summary>
-            The CloseAUT recording.
-             </summary>
-        </member>
-        <member name="F:LynxDrive_ControlSystems_001.CloseAUT.repo">
+        <member name="T:LynxDrive_ControlSystems_001.Code_Modules.StationLevelTest">
             <summary>
-            Holds an instance of the LynxDrive_ControlSystems_001Repository repository.
+            Description of StationLevelTest.
             </summary>
         </member>
-        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.#ctor">
+        <member name="M:LynxDrive_ControlSystems_001.Code_Modules.StationLevelTest.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.CloseAUT.Instance">
+        <member name="M:LynxDrive_ControlSystems_001.Code_Modules.StationLevelTest.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.CloseAUT.CloseAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable CloseAutProcessIDVar.
-            </summary>
-        </member>
-        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:LynxDrive_ControlSystems_001.CloseAUT.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
+            Performs the playback of actions in this module.
             </summary>
             <remarks>You should not call this method directly, instead pass the module
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:LynxDrive_ControlSystems_001.CloseAUT.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
         </member>
         <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository">
             <summary>
@@ -61,6 +35,61 @@
         <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.#ctor">
             <summary>
             Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.StationValue">
+            <summary>
+            Gets or sets the value of variable StationValue.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.StationRowName">
+            <summary>
+            Gets or sets the value of variable StationRowName.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.StationAccessRow">
+            <summary>
+            Gets or sets the value of variable StationAccessRow.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.NameRow">
+            <summary>
+            Gets or sets the value of variable NameRow.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.AreaRowName">
+            <summary>
+            Gets or sets the value of variable AreaRowName.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.HoleRowName">
+            <summary>
+            Gets or sets the value of variable HoleRowName.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.TagRowName">
+            <summary>
+            Gets or sets the value of variable TagRowName.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.NOSRowName">
+            <summary>
+            Gets or sets the value of variable NOSRowName.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.AddRowName">
+            <summary>
+            Gets or sets the value of variable AddRowName.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.OffsetRowName">
+            <summary>
+            Gets or sets the value of variable OffsetRowName.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.WPRowName">
+            <summary>
+            Gets or sets the value of variable WPRowName.
             </summary>
         </member>
         <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.SelfInfo">
@@ -106,6 +135,11 @@
         <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder.MainForm">
             <summary>
             The MainForm folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder.Comm_Select">
+            <summary>
+            The Comm_Select folder.
             </summary>
         </member>
         <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder">
@@ -168,24 +202,84 @@
             The NavigateRow1 item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NameRow1">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.EnabledStationsRow1">
             <summary>
-            The NameRow1 item.
+            The EnabledStationsRow1 item.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NameRow1Info">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.EnabledStationsRow1Info">
             <summary>
-            The NameRow1 item info.
+            The EnabledStationsRow1 item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.LinkRow1">
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder">
+            <summary>
+            The Comm_SelectFolder folder.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Comm_Select  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.LinkRow1">
             <summary>
             The LinkRow1 item.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.LinkRow1Info">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.LinkRow1Info">
             <summary>
             The LinkRow1 item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.LynxClient">
+            <summary>
+            The LynxClient folder.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder">
+            <summary>
+            The LynxClientAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LynxClient  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.WIRELINK1Unassigned">
+            <summary>
+            The WIRELINK1Unassigned item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.WIRELINK1UnassignedInfo">
+            <summary>
+            The WIRELINK1Unassigned item info.
             </summary>
         </member>
         <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder">
@@ -216,6 +310,96 @@
         <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.SelfInfo">
             <summary>
             The Self item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rStationRow">
+            <summary>
+            The rStationRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rStationRowInfo">
+            <summary>
+            The rStationRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rNameRow">
+            <summary>
+            The rNameRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rNameRowInfo">
+            <summary>
+            The rNameRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rAreaRow">
+            <summary>
+            The rAreaRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rAreaRowInfo">
+            <summary>
+            The rAreaRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rHoleRow">
+            <summary>
+            The rHoleRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rHoleRowInfo">
+            <summary>
+            The rHoleRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rTagRow">
+            <summary>
+            The rTagRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rTagRowInfo">
+            <summary>
+            The rTagRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rNOSRow">
+            <summary>
+            The rNOSRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rNOSRowInfo">
+            <summary>
+            The rNOSRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rLSMAddressRow">
+            <summary>
+            The rLSMAddressRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rLSMAddressRowInfo">
+            <summary>
+            The rLSMAddressRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rLSMOffsetRow">
+            <summary>
+            The rLSMOffsetRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rLSMOffsetRowInfo">
+            <summary>
+            The rLSMOffsetRow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rWirePathRow">
+            <summary>
+            The rWirePathRow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.rWirePathRowInfo">
+            <summary>
+            The rWirePathRow item info.
             </summary>
         </member>
         <member name="T:LynxDrive_ControlSystems_001.Recording1">
@@ -252,50 +436,6 @@
             that will in turn invoke this method.</remarks>
         </member>
         <member name="M:LynxDrive_ControlSystems_001.Recording1.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="T:LynxDrive_ControlSystems_001.StartAUT">
-             <summary>
-            The StartAUT recording.
-             </summary>
-        </member>
-        <member name="F:LynxDrive_ControlSystems_001.StartAUT.repo">
-            <summary>
-            Holds an instance of the LynxDrive_ControlSystems_001Repository repository.
-            </summary>
-        </member>
-        <member name="M:LynxDrive_ControlSystems_001.StartAUT.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.StartAUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.StartAUT.StartAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable StartAutProcessIDVar.
-            </summary>
-        </member>
-        <member name="M:LynxDrive_ControlSystems_001.StartAUT.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:LynxDrive_ControlSystems_001.StartAUT.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:LynxDrive_ControlSystems_001.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:LynxDrive_ControlSystems_001.StartAUT.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.

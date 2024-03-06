@@ -125,17 +125,8 @@
     <Compile Include="AssemblyInfo.cs">
       <id>18fc0a99-0328-47f2-a3f1-d1bedc11c8bd</id>
     </Compile>
-    <Compile Include="CloseAUT.cs">
-      <BoundTo>2bd41fa4-f8db-4c2f-a7f6-ea178397d864</BoundTo>
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>ac2bc4a5-b304-41ea-a527-de5a70cc0745</id>
-    </Compile>
-    <Compile Include="CloseAUT.UserCode.cs">
-      <BoundTo>2bd41fa4-f8db-4c2f-a7f6-ea178397d864</BoundTo>
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>b7e30933-1ee4-4911-ad90-2f6930c8b51f</id>
+    <Compile Include="Code_Modules\StationLevelTest.cs">
+      <id>23a126ef-8210-490b-8fe5-6821e65a12bc</id>
     </Compile>
     <Compile Include="LynxDrive_ControlSystems_001Repository.cs">
       <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
@@ -158,28 +149,18 @@
       <UserCode>true</UserCode>
       <id>306521a7-e1da-4c76-b5ef-3b97adec8b82</id>
     </Compile>
-    <Compile Include="StartAUT.cs">
-      <BoundTo>f2a880b0-8d55-4f8c-a43b-b1cc831ee685</BoundTo>
-      <DependentUpon>StartAUT.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>dbe0af6d-2853-47ad-9666-7022d4499009</id>
-    </Compile>
-    <Compile Include="StartAUT.UserCode.cs">
-      <BoundTo>f2a880b0-8d55-4f8c-a43b-b1cc831ee685</BoundTo>
-      <DependentUpon>StartAUT.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>4a120237-8a25-4419-bf5c-1806daf05d80</id>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>b03a6dbd-437b-42e9-9641-acd91eebe085</id>
     </None>
-    <None Include="CloseAUT.rxrec">
-      <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
-      <id>2bd41fa4-f8db-4c2f-a7f6-ea178397d864</id>
-      <recordtableid>44e8c118-4bca-4962-836c-b06b5dc79330</recordtableid>
-    </None>
+    <Content Include="LSM304Sta1.csv">
+      <Link>LSM304Sta1.csv</Link>
+      <BoundTo>0b6926c5-8349-42fd-adfe-29b6796eb1ae</BoundTo>
+      <DependentUpon>LynxDrive_ControlSystems_001.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9b91203b-b141-4a5f-aafc-a561d6748a29</id>
+    </Content>
     <None Include="LynxDrive_ControlSystems_001Repository.rximg">
       <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
       <DependentUpon>LynxDrive_ControlSystems_001Repository.rxrep</DependentUpon>
@@ -196,11 +177,6 @@
       <id>35bdf6fd-f82f-4486-bd56-aee27baa9caf</id>
       <recordtableid>6dc788e7-cc12-477c-86b6-ef6bd20caf87</recordtableid>
     </None>
-    <None Include="StartAUT.rxrec">
-      <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>
-      <id>f2a880b0-8d55-4f8c-a43b-b1cc831ee685</id>
-      <recordtableid>fc3a14a1-b5f6-447d-80ce-17f62bea0959</recordtableid>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="LynxDrive_ControlSystems_001.rxtmg">
@@ -211,6 +187,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>0b6926c5-8349-42fd-adfe-29b6796eb1ae</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code_Modules">
+      <id>2ea7a59d-d815-498d-8b79-bc73c785e225</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
