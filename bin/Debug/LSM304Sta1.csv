@@ -1,6 +1,6 @@
 ﻿Station,StationAccessRow,StationRowName,Name,NameRow,Area,AreaRowName,Hole,HoleRowName,Tag,TagRowName,NOS,NOSRowName,LSM Address,AddRowName,LSM Offset,OffsetRowName,Wire Path,WPRowName
 1-1-1,Row 1,Station row 1,"~!@#$%^&*()_+<>?:""|",Name row 1,G,Area row 1,1,Hole row 1,1,Tag row 1,-1,Number of Sprinklers row,1D84A1,LSMAddress row 1,2,LSMOffset row 1,5-451,Wire Path row 1
-1-1-2,Row 2,Station row 2,"`1234567890-=[];',./",Name row 2,G,Area row 2,1,Hole row 2,1,Tag row 2,251,Number of Sprinklers row,1D8498,LSMAddress row 2,0,LSMOffset row 2,1-001,Wire Path row 2
+1-1-2,Row 2,Station row 2,"`1234567890-=[];',./",Name row 2,G,Area row 2,1,Hole row 2,1,Tag row 2,251,Number of Sprinklers row,1D8498,LSMAddress row 2,-1,LSMOffset row 2,1-001,Wire Path row 2
 1-1-3,Row 3,Station row 3,Sta 3,Name row 3,G,Area row 3,1,Hole row 3,1,Tag row 3,1,Number of Sprinklers row,1D8492,LSMAddress row 3,1,LSMOffset row 3,1-001,Wire Path row 3
 1-1-4,Row 4,Station row 4,Sta 4,Name row 4,G,Area row 4,1,Hole row 4,1,Tag row 4,1,Number of Sprinklers row,1D849F,LSMAddress row 4,1,LSMOffset row 4,1-001,Wire Path row 4
 1-1-5,Row 5,Station row 5,Sta 5,Name row 5,G,Area row 5,1,Hole row 5,1,Tag row 5,1,Number of Sprinklers row,1000EF,LSMAddress row 5,1,LSMOffset row 5,1-001,Wire Path row 5

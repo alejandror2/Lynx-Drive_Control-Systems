@@ -231,23 +231,23 @@ namespace LynxDrive_ControlSystems_001.Code_Modules
             
             //repository variables binded from CSV and cm variables
             repo.NameRow = cmNameRow;
-//            repo.AreaRowName = cmAreaRowName;
-//            repo.HoleRowName = cmHoleRowName;
-//            repo.TagRowName = cmTagRowName;
-//            repo.NOSRowName = cmNOSRowName;
-//            repo.AddRowName = cmAreaRowName;
-//            repo.OffsetRowName = cmOffsetRowName;
-//            repo.WPRowName = cmWPRowName;
+            repo.AreaRowName = cmAreaRowName;
+            repo.HoleRowName = cmHoleRowName;
+            repo.TagRowName = cmTagRowName;
+            repo.NOSRowName = cmNOSRowName;
+            repo.AddRowName = cmAddRowName;
+            repo.OffsetRowName = cmOffsetRowName;
+            repo.WPRowName = cmWPRowName;
             
-            var currentStation = repo.CS_StaLevel.rStationRow;
-            var currentName = repo.CS_StaLevel.rNameRow;
-//            var currentArea = repo.CS_StaLevel.rAreaRow;
-//            var currentHole = repo.CS_StaLevel.rHoleRow;
-//            var currentTag = repo.CS_StaLevel.rTagRow;
-//            var currentNOS = repo.CS_StaLevel.rNOSRow;
-//            var currentAdd = repo.CS_StaLevel.rLSMAddressRow;
-//            var currentOfsset = repo.CS_StaLevel.rLSMOffsetRow;
-//            var currentWP = repo.CS_StaLevel.rWirePathRow;
+            var currentStation = repo.MainForm.CS_StaLevel.rStationRow;
+            var currentName = repo.MainForm.CS_StaLevel.rNameRow;
+            var currentArea = repo.MainForm.CS_StaLevel.rAreaRow;
+            var currentHole = repo.MainForm.CS_StaLevel.rHoleRow;
+            var currentTag = repo.MainForm.CS_StaLevel.rTagRow;
+            var currentNOS = repo.MainForm.CS_StaLevel.rNOSRow;
+            var currentAdd = repo.MainForm.CS_StaLevel.rLSMAddressRow;
+            var currentOfsset = repo.MainForm.CS_StaLevel.rLSMOffsetRow;
+            var currentWP = repo.MainForm.CS_StaLevel.rWirePathRow;
             
             //check if station number is correct example: 1-1-1 for station 1. This is initial check to make sure the test can even run (temporary check??)
             if(currentStation.Visible != true)
@@ -257,30 +257,53 @@ namespace LynxDrive_ControlSystems_001.Code_Modules
             }
             else
             {
-            	Ranorex.Report.Log(ReportLevel.Success, "Station "+cmStationVal+"Found INIT TEST");
+            	Ranorex.Report.Log(ReportLevel.Success, "Station "+cmStationVal+" Found INIT TEST");
             }
             
 			//input Name (name column)
 			Delay.Ms(500);
 	       	currentName.Click();
             Delay.Ms(500);
-	        //currentName.PressKeys(cmNameVal + downKey);
-	        currentName.PressKeys(cmNameVal);
-            Delay.Ms(500);
+	        currentName.PressKeys(cmNameVal + retKey);
+            Delay.Ms(3000);
 
 			//input area
+			currentArea.Click();
+			Delay.Ms(500);
+			currentArea.PressKeys(cmAreaVal + retKey);
+			Delay.Ms(3000);
 
-			//input hole
+			//input hole -- add later
 
-			//input tag
+			//input tag -- add later
 
 			//input Number Of Sprinlklers (NOS)
+			Delay.Ms(500);
+			currentNOS.Click();
+			Delay.Ms(500);
+			currentNOS.PressKeys(cmNOSVal + retKey);
+			Delay.Ms(3000);			
 
 			//input decoder address
+			Delay.Ms(500);
+			currentAdd.Click();
+			Delay.Ms(500);
+			currentAdd.PressKeys(cmAddVal + retKey);
+			Delay.Ms(3000);
 
 			//input offset
+			Delay.Ms(500);
+			currentOfsset.Click();
+			Delay.Ms(500);
+			currentOfsset.PressKeys(cmOffsetVal + retKey);
+			Delay.Ms(3000);
 
-			//input Wire Path			
+			//input Wire Path
+			Delay.Ms(500);
+			currentWP.Click();
+			Delay.Ms(500);
+			currentWP.PressKeys(cmWPValue + downKey);
+			Delay.Ms(3000);			
         }
     }
 }

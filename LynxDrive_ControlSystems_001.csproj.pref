@@ -1,8 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="LynxDrive_ControlSystems_001Repository.rxrep" />
+    <Element value="LynxDrive_ControlSystems_001.rxtst" />
   </Array>
-  <Array name="bookmarks" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\Code_Modules\StationLevelTest.cs|288|4|True|Break||" />
+  </Array>
   <Array name="files">
     <Element value="LynxDrive_ControlSystems_001.rxtst" />
     <Element value="Code_Modules\StationLevelTest.cs" />
