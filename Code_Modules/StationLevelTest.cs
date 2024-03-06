@@ -265,13 +265,13 @@ namespace LynxDrive_ControlSystems_001.Code_Modules
 	       	currentName.Click();
             Delay.Ms(500);
 	        currentName.PressKeys(cmNameVal + retKey);
-            Delay.Ms(3000);
+            Delay.Ms(1000);
 
 			//input area
 			currentArea.Click();
 			Delay.Ms(500);
 			currentArea.PressKeys(cmAreaVal + retKey);
-			Delay.Ms(3000);
+			Delay.Ms(1000);
 
 			//input hole -- add later
 
@@ -282,14 +282,14 @@ namespace LynxDrive_ControlSystems_001.Code_Modules
 			currentNOS.Click();
 			Delay.Ms(500);
 			currentNOS.PressKeys(cmNOSVal + retKey);
-			Delay.Ms(3000);			
+			Delay.Ms(1000);			
 
 			//input decoder address
 			Delay.Ms(500);
 			currentAdd.Click();
 			Delay.Ms(500);
 			currentAdd.PressKeys(cmAddVal + retKey);
-			Delay.Ms(3000);
+			Delay.Ms(1000);
 
 			//input offset
 			Delay.Ms(500);
@@ -302,8 +302,8 @@ namespace LynxDrive_ControlSystems_001.Code_Modules
 			Delay.Ms(500);
 			currentWP.Click();
 			Delay.Ms(500);
-			currentWP.PressKeys(cmWPValue + downKey);
-			Delay.Ms(3000);			
+			currentWP.PressKeys(cmWPValue + downKey + downKey);
+			Delay.Ms(1000);			
         }
     }
 }
