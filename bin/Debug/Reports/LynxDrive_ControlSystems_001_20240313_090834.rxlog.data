@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="2.82s"
+		durationms="2820"
+		type="root"
+		rid="2cca55724f86fcb7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NSN"
+		rxversion="11.1.1.0"
+		host="IRRIGATION"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2560x1080"
+		timestamp="3/13/2024 9:08:34 AM"
+		timestampiso="2024-03-13T16:08:34"
+		endtime="3/13/2024 9:08:37 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+	</activity>
+</report>

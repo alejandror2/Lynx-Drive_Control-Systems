@@ -25,6 +25,23 @@ mode="Desktop">
 	<variables>
 	</variables>
 	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Toro_Lynx\Tools\Launcher\Launcher.exe
+			</filename>
+			<workingdir>
+				C:\Toro_Lynx\Tools\Launcher
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
 	</recorditems>
 	<repository
 	id="e2150225-4b64-47f2-b85f-a60763e14d32"

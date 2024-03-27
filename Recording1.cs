@@ -79,6 +79,10 @@ namespace LynxDrive_ControlSystems_001
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Toro_Lynx\\Tools\\Launcher\\Launcher.exe' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("C:\\Toro_Lynx\\Tools\\Launcher\\Launcher.exe", "", "C:\\Toro_Lynx\\Tools\\Launcher", false);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

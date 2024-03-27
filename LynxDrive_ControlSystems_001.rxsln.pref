@@ -10,8 +10,10 @@
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>2ea7a59d-d815-498d-8b79-bc73c785e225</string>
+      <string>c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99</string>
+      <string>6dc788e7-cc12-477c-86b6-ef6bd20caf87</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution LynxDrive_ControlSystems_001[LynxDrive_ControlSystems_001[Code_Modules[]]]]&#xD;&#xA;Solution LynxDrive_ControlSystems_001\LynxDrive_ControlSystems_001\LynxDrive_ControlSystems_001.rxtst&#xD;&#xA;Solution LynxDrive_ControlSystems_001" />
+  <ProjectBrowserState value="[Solution LynxDrive_ControlSystems_001[Solution Items[]LynxDrive_ControlSystems_001[Code_Modules[]]]]&#xD;&#xA;Solution LynxDrive_ControlSystems_001\LynxDrive_ControlSystems_001\LynxDrive_ControlSystems_001.rxtst&#xD;&#xA;Solution LynxDrive_ControlSystems_001" />
   <StartupProject value="{9C655C41-00A6-4347-B04E-F9F43B63D136}" />
 </Properties>

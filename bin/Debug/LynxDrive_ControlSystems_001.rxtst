@@ -4,105 +4,15 @@
 		<flatlistofchildren>
 			<testmodule
 			id="01e152a0-1526-47ba-83b8-dc9f84dda4f2"
-			name="StationLevelTest"
+			name="PopulateColumn"
 			ref="0ad50007-6e74-4240-8565-3dca589c69bc"
 			type="UserCode">
 				<databinding>
-					<var
-					dataname="StationAccessRow"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="6cda3231-272f-40ac-8988-b936c336175f"
-					variablename="cmStationAccessRow">
-					</var>
-					<var
-					dataname="StationRowName"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="86112241-6a71-4977-b908-866cae2f1245"
-					variablename="cmStationRowName">
-					</var>
-					<var
-					dataname="NameRow"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="8b18c1e6-d9c6-4f7a-86a6-1c953678c6de"
-					variablename="cmNameRow">
-					</var>
-					<var
-					dataname="AreaRowName"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="cc940f3e-4442-48fd-9286-e485d989735d"
-					variablename="cmAreaRowName">
-					</var>
-					<var
-					dataname="HoleRowName"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="424d2843-d78c-4d19-8bdd-aae84bc6bd15"
-					variablename="cmHoleRowName">
-					</var>
-					<var
-					dataname="TagRowName"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="4e85e87d-b494-4629-85c0-23e292a2fe06"
-					variablename="cmTagRowName">
-					</var>
-					<var
-					dataname="NOSRowName"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="b58d6952-3fae-481c-a6da-a8824f230fa1"
-					variablename="cmNOSRowName">
-					</var>
-					<var
-					dataname="AddRowName"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="8fe83040-3b68-4286-936c-2c9db5e8cf29"
-					variablename="cmAddRowName">
-					</var>
-					<var
-					dataname="OffsetRowName"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="7ae669b9-b0ae-45ca-9095-996a61d21c7d"
-					variablename="cmOffsetRowName">
-					</var>
 					<var
 					dataname="WPRowName"
 					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
 					variableid="b23d9c29-3cfd-4781-8ecc-1e112f014a60"
 					variablename="cmWPRowName">
-					</var>
-					<var
-					dataname="Name"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="1681069f-c0b1-48f0-9227-3fdcf82e711e"
-					variablename="cmNameVal">
-					</var>
-					<var
-					dataname="Area"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="be5e16a2-d64d-4d78-9064-727f7170466b"
-					variablename="cmAreaVal">
-					</var>
-					<var
-					dataname="Hole"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="6e1d3c99-01bc-4b20-a0ac-d7e35f455bf0"
-					variablename="cmHoelVal">
-					</var>
-					<var
-					dataname="NOS"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="8afc53b0-1296-4793-bc73-83efcc12092b"
-					variablename="cmNOSVal">
-					</var>
-					<var
-					dataname="LSM Address"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="2b94bd55-d32b-4f66-9078-22791ced85d1"
-					variablename="cmAddVal">
-					</var>
-					<var
-					dataname="LSM Offset"
-					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
-					variableid="c504da5b-4add-42e2-a8e7-ca148c73773b"
-					variablename="cmOffsetVal">
 					</var>
 					<var
 					dataname="Wire Path"
@@ -111,21 +21,208 @@
 					variablename="cmWPValue">
 					</var>
 					<var
+					dataname="OffsetRowName"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="7ae669b9-b0ae-45ca-9095-996a61d21c7d"
+					variablename="cmOffsetRowName">
+					</var>
+					<var
+					dataname="LSM Offset"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="c504da5b-4add-42e2-a8e7-ca148c73773b"
+					variablename="cmOffsetVal">
+					</var>
+					<var
+					dataname="AddRowName"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="8fe83040-3b68-4286-936c-2c9db5e8cf29"
+					variablename="cmAddRowName">
+					</var>
+					<var
+					dataname="LSM Address"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="2b94bd55-d32b-4f66-9078-22791ced85d1"
+					variablename="cmAddVal">
+					</var>
+					<var
+					dataname="NOSRowName"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="b58d6952-3fae-481c-a6da-a8824f230fa1"
+					variablename="cmNOSRowName">
+					</var>
+					<var
+					dataname="NOS"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="8afc53b0-1296-4793-bc73-83efcc12092b"
+					variablename="cmNOSVal">
+					</var>
+					<var
+					dataname="TagRowName"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="4e85e87d-b494-4629-85c0-23e292a2fe06"
+					variablename="cmTagRowName">
+					</var>
+					<var
+					dataname="HoleRowName"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="424d2843-d78c-4d19-8bdd-aae84bc6bd15"
+					variablename="cmHoleRowName">
+					</var>
+					<var
+					dataname="Hole"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="6e1d3c99-01bc-4b20-a0ac-d7e35f455bf0"
+					variablename="cmHoelVal">
+					</var>
+					<var
+					dataname="AreaRowName"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="cc940f3e-4442-48fd-9286-e485d989735d"
+					variablename="cmAreaRowName">
+					</var>
+					<var
+					dataname="Area"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="be5e16a2-d64d-4d78-9064-727f7170466b"
+					variablename="cmAreaVal">
+					</var>
+					<var
+					dataname="NameRow"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="8b18c1e6-d9c6-4f7a-86a6-1c953678c6de"
+					variablename="cmNameRow">
+					</var>
+					<var
+					dataname="Name"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="1681069f-c0b1-48f0-9227-3fdcf82e711e"
+					variablename="cmNameVal">
+					</var>
+					<var
 					dataname="Station"
 					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
 					variableid="b8ddab5d-b18a-4882-a7cc-b02d02000d89"
 					variablename="cmStationVal">
+					</var>
+					<var
+					dataname="StationRowName"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="86112241-6a71-4977-b908-866cae2f1245"
+					variablename="cmStationRowName">
+					</var>
+					<var
+					dataname="StationAccessRow"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="6cda3231-272f-40ac-8988-b936c336175f"
+					variablename="cmStationAccessRow">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="358eab4e-4c2f-4826-9c52-5af477ff4e9a"
+			name="SidePanel"
+			ref="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="Sprinkler Model"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="c7cf6a29-7a98-498b-ac80-f51601f06a26"
+					variablename="cmSprinklerModel">
+					</var>
+					<var
+					dataname="Nozzle Model"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="12d906ee-f764-4a38-ad10-04480ae4ae4a"
+					variablename="cmNozzleModel">
+					</var>
+					<var
+					dataname="Arc"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="fd92dfd3-5db2-442c-a8a0-87f84ea3eb4a"
+					variablename="cmArc">
+					</var>
+					<var
+					dataname="Pressure"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="99e819fe-2d32-4b40-8f10-eb27df25a0a4"
+					variablename="cmPressure">
+					</var>
+					<var
+					dataname="Num Sprinklers"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="a76516ac-49ba-474f-a481-4531b78ae9d4"
+					variablename="cmNumSprinklers">
+					</var>
+					<var
+					dataname="Nozzle Flow"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="9f2b783a-e9cb-465e-bb76-70b31d7a2eb4"
+					variablename="cmNozzleFlow">
+					</var>
+					<var
+					dataname="Back Flow"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="dd68e781-0a9b-4eb3-83d7-dd9664d400c7"
+					variablename="cmBackFlow">
+					</var>
+					<var
+					dataname="Sta Flow"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="60dad728-6231-4171-a99d-4312dab00eef"
+					variablename="cmStaFlow">
+					</var>
+					<var
+					dataname="Precip Rate"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="79a200f7-a796-4c8e-97e5-90a5517acae9"
+					variablename="cmPrecipRate">
+					</var>
+					<var
+					dataname="Pattern"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="bfef245b-48a4-44d4-8be6-ad25e283c082"
+					variablename="cmPattern">
+					</var>
+					<var
+					dataname="Sprinkler Spacing"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="616998cc-f7da-445a-9855-4a7dfb07e5a4"
+					variablename="cmSprinklerSpacing">
+					</var>
+					<var
+					dataname="Row Spacing"
+					datasourceid="4317cd59-d98f-4ba3-9698-98e43ecdd26b"
+					variableid="845efe94-50e4-4392-9ee1-6f041416012b"
+					variablename="cmRowSpacing">
 					</var>
 				</databinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="LSMSta304_1"
 			id="70bff4a2-a05e-412d-9c4a-366a31b1f719"
-			name="Populate_CS">
+			name="StationLevelTest">
+				<parameters>
+					<param
+					mask="False"
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
 			</smartfoldernode>
 			<testcase
 			id="87b654c9-6b7b-455a-89ed-7e36482d2dd2"
-			name="MainTest">
+			name="ControlSystems_LSM">
+				<description>
+					<![CDATA[Test Control Systems: For LSM platform Lynx Drive]]>
+				</description>
+				<parameters>
+					<param
+					mask="False"
+					name="iteration"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<testcase
 			id="91354664-5c09-44c5-b128-96e972e7dab6"
@@ -139,6 +236,10 @@
 					</param>
 				</parameters>
 			</testcase>
+			<smartfoldernode
+			id="a205cd3b-1a61-44ee-ba8d-1e1b7e96d954"
+			name="StationLevelTest">
+			</smartfoldernode>
 			<testsuite
 			ExportColumnList="None"
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -147,7 +248,7 @@
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
 			VideoFps="15"
-			VideoRecordingMode="Off"
+			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
 			createindividualreportpdfchecked="False"
 			createsinglereportpdfchecked="True"
@@ -178,6 +279,137 @@
 			id="a844ed3e-cbd8-4fec-a7fd-05b1e5c41ed3"
 			name="teardown">
 			</teardown>
+			<testcase
+			datasource="LSMSta304_2"
+			id="d2eaaf94-30e3-4c5c-8b82-789d726dd18b"
+			name="ControlSystems_Fusion">
+				<description>
+					<![CDATA[<p>Test Control Systems: For&nbsp;Fusion platform Lynx Drive</p>]]>
+				</description>
+				<parameters>
+					<param
+					mask="False"
+					name="iteration"
+					value="">
+					</param>
+				</parameters>
+			</testcase>
+			<testmodule
+			id="f281fe4e-ffd2-45a8-86de-170dcf3463ad"
+			name="PopulateColumn"
+			ref="0ad50007-6e74-4240-8565-3dca589c69bc"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="WPRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="b23d9c29-3cfd-4781-8ecc-1e112f014a60"
+					variablename="cmWPRowName">
+					</var>
+					<var
+					dataname="Wire Path"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="36d4f8cf-b617-4382-a9b9-88b91308c1b7"
+					variablename="cmWPValue">
+					</var>
+					<var
+					dataname="OffsetRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="7ae669b9-b0ae-45ca-9095-996a61d21c7d"
+					variablename="cmOffsetRowName">
+					</var>
+					<var
+					dataname="LSM Offset"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="c504da5b-4add-42e2-a8e7-ca148c73773b"
+					variablename="cmOffsetVal">
+					</var>
+					<var
+					dataname="AddRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="8fe83040-3b68-4286-936c-2c9db5e8cf29"
+					variablename="cmAddRowName">
+					</var>
+					<var
+					dataname="LSM Address"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="2b94bd55-d32b-4f66-9078-22791ced85d1"
+					variablename="cmAddVal">
+					</var>
+					<var
+					dataname="NOSRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="b58d6952-3fae-481c-a6da-a8824f230fa1"
+					variablename="cmNOSRowName">
+					</var>
+					<var
+					dataname="NOS"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="8afc53b0-1296-4793-bc73-83efcc12092b"
+					variablename="cmNOSVal">
+					</var>
+					<var
+					dataname="TagRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="4e85e87d-b494-4629-85c0-23e292a2fe06"
+					variablename="cmTagRowName">
+					</var>
+					<var
+					dataname="HoleRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="424d2843-d78c-4d19-8bdd-aae84bc6bd15"
+					variablename="cmHoleRowName">
+					</var>
+					<var
+					dataname="Hole"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="6e1d3c99-01bc-4b20-a0ac-d7e35f455bf0"
+					variablename="cmHoelVal">
+					</var>
+					<var
+					dataname="AreaRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="cc940f3e-4442-48fd-9286-e485d989735d"
+					variablename="cmAreaRowName">
+					</var>
+					<var
+					dataname="Area"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="be5e16a2-d64d-4d78-9064-727f7170466b"
+					variablename="cmAreaVal">
+					</var>
+					<var
+					dataname="NameRow"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="8b18c1e6-d9c6-4f7a-86a6-1c953678c6de"
+					variablename="cmNameRow">
+					</var>
+					<var
+					dataname="Name"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="1681069f-c0b1-48f0-9227-3fdcf82e711e"
+					variablename="cmNameVal">
+					</var>
+					<var
+					dataname="StationAccessRow"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="6cda3231-272f-40ac-8988-b936c336175f"
+					variablename="cmStationAccessRow">
+					</var>
+					<var
+					dataname="StationRowName"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="86112241-6a71-4977-b908-866cae2f1245"
+					variablename="cmStationRowName">
+					</var>
+					<var
+					dataname="Station"
+					datasourceid="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+					variableid="b8ddab5d-b18a-4882-a7cc-b02d02000d89"
+					variablename="cmStationVal">
+					</var>
+				</databinding>
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -186,26 +418,42 @@
 				<testcase
 				id="91354664-5c09-44c5-b128-96e972e7dab6"
 				name="LynxDrive_ControlSystems_001">
+					<setup
+					id="a43e878a-423c-40ec-8014-0bf081fde5ed"
+					name="setup">
+					</setup>
 					<testcase
 					id="87b654c9-6b7b-455a-89ed-7e36482d2dd2"
-					name="MainTest">
-						<setup
-						id="a43e878a-423c-40ec-8014-0bf081fde5ed"
-						name="setup">
-						</setup>
+					name="ControlSystems_LSM">
 						<smartfoldernode
 						id="70bff4a2-a05e-412d-9c4a-366a31b1f719"
-						name="Populate_CS">
+						name="StationLevelTest">
 							<testmodule
 							id="01e152a0-1526-47ba-83b8-dc9f84dda4f2"
-							name="StationLevelTest">
+							name="PopulateColumn">
+							</testmodule>
+							<testmodule
+							id="358eab4e-4c2f-4826-9c52-5af477ff4e9a"
+							name="SidePanel">
 							</testmodule>
 						</smartfoldernode>
-						<teardown
-						id="a844ed3e-cbd8-4fec-a7fd-05b1e5c41ed3"
-						name="teardown">
-						</teardown>
 					</testcase>
+					<testcase
+					id="d2eaaf94-30e3-4c5c-8b82-789d726dd18b"
+					name="ControlSystems_Fusion">
+						<smartfoldernode
+						id="a205cd3b-1a61-44ee-ba8d-1e1b7e96d954"
+						name="StationLevelTest">
+							<testmodule
+							id="f281fe4e-ffd2-45a8-86de-170dcf3463ad"
+							name="PopulateColumn">
+							</testmodule>
+						</smartfoldernode>
+					</testcase>
+					<teardown
+					id="a844ed3e-cbd8-4fec-a7fd-05b1e5c41ed3"
+					name="teardown">
+					</teardown>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -276,11 +524,119 @@
 				<column>
 					WPRowName
 				</column>
+				<column>
+					Sprinkler Model
+				</column>
+				<column>
+					Nozzle Model
+				</column>
+				<column>
+					Arc
+				</column>
+				<column>
+					Pressure
+				</column>
+				<column>
+					Num Sprinklers
+				</column>
+				<column>
+					Nozzle Flow
+				</column>
+				<column>
+					Back Flow
+				</column>
+				<column>
+					Sta Flow
+				</column>
+				<column>
+					Precip Rate
+				</column>
+				<column>
+					Pattern
+				</column>
+				<column>
+					Sprinkler Spacing
+				</column>
+				<column>
+					Row Spacing
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
 				LSM304Sta1.csv
+			</file>
+		</DataSource>
+		<DataSource
+		id="3aa8cd53-ecf5-4462-91e3-d415bbcd77bb"
+		includefile="Checked"
+		lastknownrowcount="304"
+		name="LSMSta304_2"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					Station
+				</column>
+				<column>
+					StationAccessRow
+				</column>
+				<column>
+					StationRowName
+				</column>
+				<column>
+					Name
+				</column>
+				<column>
+					NameRow
+				</column>
+				<column>
+					Area
+				</column>
+				<column>
+					AreaRowName
+				</column>
+				<column>
+					Hole
+				</column>
+				<column>
+					HoleRowName
+				</column>
+				<column>
+					Tag
+				</column>
+				<column>
+					TagRowName
+				</column>
+				<column>
+					NOS
+				</column>
+				<column>
+					NOSRowName
+				</column>
+				<column>
+					LSM Address
+				</column>
+				<column>
+					AddRowName
+				</column>
+				<column>
+					LSM Offset
+				</column>
+				<column>
+					OffsetRowName
+				</column>
+				<column>
+					Wire Path
+				</column>
+				<column>
+					WPRowName
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				LSM304Sta2.csv
 			</file>
 		</DataSource>
 	</datasources>

@@ -4,17 +4,37 @@
         <name>LynxDrive_ControlSystems_001</name>
     </assembly>
     <members>
-        <member name="T:LynxDrive_ControlSystems_001.Code_Modules.StationLevelTest">
+        <member name="T:LynxDrive_ControlSystems_001.Code_Modules.SidePanel">
+            <summary>
+            Description of repoIntegration.
+            </summary>
+        </member>
+        <member name="F:LynxDrive_ControlSystems_001.Code_Modules.SidePanel.repo">
+            <summary>
+            Constructs a new instance.
+            </summary>
+            
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.Code_Modules.SidePanel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.Code_Modules.PopulateColumn">
             <summary>
             Description of StationLevelTest.
             </summary>
         </member>
-        <member name="M:LynxDrive_ControlSystems_001.Code_Modules.StationLevelTest.#ctor">
+        <member name="M:LynxDrive_ControlSystems_001.Code_Modules.PopulateColumn.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
+            
         </member>
-        <member name="M:LynxDrive_ControlSystems_001.Code_Modules.StationLevelTest.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:LynxDrive_ControlSystems_001.Code_Modules.PopulateColumn.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this module.
             </summary>
@@ -102,19 +122,9 @@
             The MainForm folder.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.Comm_Select">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.FormMain">
             <summary>
-            The Comm_Select folder.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.CS_HubLevel">
-            <summary>
-            The CS_HubLevel folder.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001Repository.CS_DBLevel">
-            <summary>
-            The CS_DBLevel folder.
+            The FormMain folder.
             </summary>
         </member>
         <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders">
@@ -142,59 +152,19 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.SmartHubRow1">
-            <summary>
-            The SmartHubRow1 item.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.SmartHubRow1Info">
-            <summary>
-            The SmartHubRow1 item info.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status1Row1">
-            <summary>
-            The Status1Row1 item.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status1Row1Info">
-            <summary>
-            The Status1Row1 item info.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status2Row1">
-            <summary>
-            The Status2Row1 item.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.Status2Row1Info">
-            <summary>
-            The Status2Row1 item info.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NavigateRow1">
-            <summary>
-            The NavigateRow1 item.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.NavigateRow1Info">
-            <summary>
-            The NavigateRow1 item info.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.EnabledStationsRow1">
-            <summary>
-            The EnabledStationsRow1 item.
-            </summary>
-        </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.EnabledStationsRow1Info">
-            <summary>
-            The EnabledStationsRow1 item info.
-            </summary>
-        </member>
         <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.CS_StaLevel">
             <summary>
             The CS_StaLevel folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.CS_HubLevel">
+            <summary>
+            The CS_HubLevel folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder.CS_DBLevel">
+            <summary>
+            The CS_DBLevel folder.
             </summary>
         </member>
         <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder">
@@ -302,74 +272,154 @@
             The rWirePathRow item info.
             </summary>
         </member>
-        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder.SidePanel">
             <summary>
-            The Comm_SelectFolder folder.
+            The SidePanel folder.
             </summary>
         </member>
-        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder">
             <summary>
-            Creates a new Comm_Select  folder.
+            The SidePanelFolder folder.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.SelfInfo">
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SidePanel  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.SelfInfo">
             <summary>
             The Self item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.LinkRow1">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rSidePanelScrollBar">
             <summary>
-            The LinkRow1 item.
+            The rSidePanelScrollBar item.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.LinkRow1Info">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rSidePanelScrollBarInfo">
             <summary>
-            The LinkRow1 item info.
+            The rSidePanelScrollBar item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.Open">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rSprinklerModel">
             <summary>
-            The Open item.
+            The rSprinklerModel item.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.OpenInfo">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rSprinklerModelInfo">
             <summary>
-            The Open item info.
+            The rSprinklerModel item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder.LynxClient">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rNozzleModel">
             <summary>
-            The LynxClient folder.
+            The rNozzleModel item.
             </summary>
         </member>
-        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rNozzleModelInfo">
             <summary>
-            The LynxClientAppFolder folder.
+            The rNozzleModel item info.
             </summary>
         </member>
-        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rArc">
             <summary>
-            Creates a new LynxClient  folder.
+            The rArc item.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.Self">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rArcInfo">
             <summary>
-            The Self item.
+            The rArc item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.SelfInfo">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rPressure">
             <summary>
-            The Self item info.
+            The rPressure item.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.WIRELINK1Unassigned">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rPressureInfo">
             <summary>
-            The WIRELINK1Unassigned item.
+            The rPressure item info.
             </summary>
         </member>
-        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder.WIRELINK1UnassignedInfo">
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rNumSprinklers">
             <summary>
-            The WIRELINK1Unassigned item info.
+            The rNumSprinklers item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rNumSprinklersInfo">
+            <summary>
+            The rNumSprinklers item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rNozzleFlow">
+            <summary>
+            The rNozzleFlow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rNozzleFlowInfo">
+            <summary>
+            The rNozzleFlow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rBackFlow">
+            <summary>
+            The rBackFlow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rBackFlowInfo">
+            <summary>
+            The rBackFlow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rStaFlow">
+            <summary>
+            The rStaFlow item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rStaFlowInfo">
+            <summary>
+            The rStaFlow item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rPrecipRate">
+            <summary>
+            The rPrecipRate item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rPrecipRateInfo">
+            <summary>
+            The rPrecipRate item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rPattern">
+            <summary>
+            The rPattern item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rPatternInfo">
+            <summary>
+            The rPattern item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rSprinklerSpacing">
+            <summary>
+            The rSprinklerSpacing item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rSprinklerSpacingInfo">
+            <summary>
+            The rSprinklerSpacing item info.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rRowSpacing">
+            <summary>
+            The rRowSpacing item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder.rRowSpacingInfo">
+            <summary>
+            The rRowSpacing item info.
             </summary>
         </member>
         <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder">
@@ -398,6 +448,26 @@
             </summary>
         </member>
         <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.FormMainAppFolder">
+            <summary>
+            The FormMainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.FormMainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormMain  folder.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.FormMainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LynxDrive_ControlSystems_001.LynxDrive_ControlSystems_001RepositoryFolders.FormMainAppFolder.SelfInfo">
             <summary>
             The Self item info.
             </summary>

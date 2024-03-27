@@ -125,7 +125,10 @@
     <Compile Include="AssemblyInfo.cs">
       <id>18fc0a99-0328-47f2-a3f1-d1bedc11c8bd</id>
     </Compile>
-    <Compile Include="Code_Modules\StationLevelTest.cs">
+    <Compile Include="Code_Modules\SidePanel.cs">
+      <id>baed8cab-c338-4d17-b8ab-ee639c123e6a</id>
+    </Compile>
+    <Compile Include="Code_Modules\PopulateColumn.cs">
       <id>23a126ef-8210-490b-8fe5-6821e65a12bc</id>
     </Compile>
     <Compile Include="LynxDrive_ControlSystems_001Repository.cs">
@@ -160,6 +163,13 @@
       <DependentUpon>LynxDrive_ControlSystems_001.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>9b91203b-b141-4a5f-aafc-a561d6748a29</id>
+    </Content>
+    <Content Include="LSM304Sta2.csv">
+      <Link>LSM304Sta2.csv</Link>
+      <BoundTo>0b6926c5-8349-42fd-adfe-29b6796eb1ae</BoundTo>
+      <DependentUpon>LynxDrive_ControlSystems_001.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7467010d-d935-486a-88ef-2e97a081bfd0</id>
     </Content>
     <None Include="LynxDrive_ControlSystems_001Repository.rximg">
       <BoundTo>214616f2-4ad2-4386-8dc1-ad926070ba56</BoundTo>

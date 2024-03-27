@@ -28,9 +28,7 @@ namespace LynxDrive_ControlSystems_001
     {
         static LynxDrive_ControlSystems_001Repository instance = new LynxDrive_ControlSystems_001Repository();
         LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder _mainform;
-        LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder _comm_select;
-        LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder _cs_hublevel;
-        LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder _cs_dblevel;
+        LynxDrive_ControlSystems_001RepositoryFolders.FormMainAppFolder _formmain;
 
         /// <summary>
         /// Gets the singleton class instance representing the LynxDrive_ControlSystems_001Repository element repository.
@@ -48,9 +46,7 @@ namespace LynxDrive_ControlSystems_001
             : base("LynxDrive_ControlSystems_001Repository", "/", null, 0, false, "e8ed7e89-4d41-4e82-9a50-cc271cb89461", ".\\RepositoryImages\\LynxDrive_ControlSystems_001Repositorye8ed7e89.rximgres")
         {
             _mainform = new LynxDrive_ControlSystems_001RepositoryFolders.MainFormAppFolder(this);
-            _comm_select = new LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder(this);
-            _cs_hublevel = new LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder(this);
-            _cs_dblevel = new LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder(this);
+            _formmain = new LynxDrive_ControlSystems_001RepositoryFolders.FormMainAppFolder(this);
         }
 
 #region Variables
@@ -211,30 +207,12 @@ namespace LynxDrive_ControlSystems_001
         }
 
         /// <summary>
-        /// The Comm_Select folder.
+        /// The FormMain folder.
         /// </summary>
-        [RepositoryFolder("ccaff60e-22db-4b13-8cc9-4561e3ee0119")]
-        public virtual LynxDrive_ControlSystems_001RepositoryFolders.Comm_SelectFolder Comm_Select
+        [RepositoryFolder("f640f73a-3c69-4234-a594-c821f9927dae")]
+        public virtual LynxDrive_ControlSystems_001RepositoryFolders.FormMainAppFolder FormMain
         {
-            get { return _comm_select; }
-        }
-
-        /// <summary>
-        /// The CS_HubLevel folder.
-        /// </summary>
-        [RepositoryFolder("b983c49d-58bb-4543-b266-de857dc45f86")]
-        public virtual LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder CS_HubLevel
-        {
-            get { return _cs_hublevel; }
-        }
-
-        /// <summary>
-        /// The CS_DBLevel folder.
-        /// </summary>
-        [RepositoryFolder("ad2c6c34-6045-4ce1-91f7-4ea2cfcef93e")]
-        public virtual LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder CS_DBLevel
-        {
-            get { return _cs_dblevel; }
+            get { return _formmain; }
         }
     }
 
@@ -251,11 +229,8 @@ namespace LynxDrive_ControlSystems_001
         public partial class MainFormAppFolder : RepoGenBaseFolder
         {
             LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder _cs_stalevel;
-            RepoItemInfo _smarthubrow1Info;
-            RepoItemInfo _status1row1Info;
-            RepoItemInfo _status2row1Info;
-            RepoItemInfo _navigaterow1Info;
-            RepoItemInfo _enabledstationsrow1Info;
+            LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder _cs_hublevel;
+            LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder _cs_dblevel;
 
             /// <summary>
             /// Creates a new MainForm  folder.
@@ -264,11 +239,8 @@ namespace LynxDrive_ControlSystems_001
                     base("MainForm", "/form[@controlname='MainForm']", parentFolder, 30000, null, true, "802bab65-8203-43d5-8d40-56e854c7c07a", "")
             {
                 _cs_stalevel = new LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder(this);
-                _smarthubrow1Info = new RepoItemInfo(this, "SmartHubRow1", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Smart Hub row 1']", ".//cell[@accessiblename='Smart Hub row 1']", 30000, null, "5679f5ef-e681-46fc-9a21-22a128a461e7");
-                _status1row1Info = new RepoItemInfo(this, "Status1Row1", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Status1 row 1']", ".//cell[@accessiblename='Status1 row 1']", 30000, null, "e748eb92-9f28-45c1-8fd3-e569117c86aa");
-                _status2row1Info = new RepoItemInfo(this, "Status2Row1", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Status2 row 1']", ".//cell[@accessiblename='Status2 row 1']", 30000, null, "f82f2ab7-2a90-43ff-ad7d-f457054ca4cf");
-                _navigaterow1Info = new RepoItemInfo(this, "NavigateRow1", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Navigate row 1']", ".//cell[@accessiblename='Navigate row 1']", 30000, null, "1b565cac-9444-407c-b499-85ea639bfd50");
-                _enabledstationsrow1Info = new RepoItemInfo(this, "EnabledStationsRow1", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Enabled Stations row 1']", ".//cell[@accessiblename='Enabled Stations row 1']", 30000, null, "10aa3498-a977-46b7-bb10-ca8d965f2320");
+                _cs_hublevel = new LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder(this);
+                _cs_dblevel = new LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder(this);
             }
 
             /// <summary>
@@ -296,132 +268,30 @@ namespace LynxDrive_ControlSystems_001
             }
 
             /// <summary>
-            /// The SmartHubRow1 item.
-            /// </summary>
-            [RepositoryItem("5679f5ef-e681-46fc-9a21-22a128a461e7")]
-            public virtual Ranorex.Cell SmartHubRow1
-            {
-                get
-                {
-                    return _smarthubrow1Info.CreateAdapter<Ranorex.Cell>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SmartHubRow1 item info.
-            /// </summary>
-            [RepositoryItemInfo("5679f5ef-e681-46fc-9a21-22a128a461e7")]
-            public virtual RepoItemInfo SmartHubRow1Info
-            {
-                get
-                {
-                    return _smarthubrow1Info;
-                }
-            }
-
-            /// <summary>
-            /// The Status1Row1 item.
-            /// </summary>
-            [RepositoryItem("e748eb92-9f28-45c1-8fd3-e569117c86aa")]
-            public virtual Ranorex.Cell Status1Row1
-            {
-                get
-                {
-                    return _status1row1Info.CreateAdapter<Ranorex.Cell>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Status1Row1 item info.
-            /// </summary>
-            [RepositoryItemInfo("e748eb92-9f28-45c1-8fd3-e569117c86aa")]
-            public virtual RepoItemInfo Status1Row1Info
-            {
-                get
-                {
-                    return _status1row1Info;
-                }
-            }
-
-            /// <summary>
-            /// The Status2Row1 item.
-            /// </summary>
-            [RepositoryItem("f82f2ab7-2a90-43ff-ad7d-f457054ca4cf")]
-            public virtual Ranorex.Cell Status2Row1
-            {
-                get
-                {
-                    return _status2row1Info.CreateAdapter<Ranorex.Cell>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Status2Row1 item info.
-            /// </summary>
-            [RepositoryItemInfo("f82f2ab7-2a90-43ff-ad7d-f457054ca4cf")]
-            public virtual RepoItemInfo Status2Row1Info
-            {
-                get
-                {
-                    return _status2row1Info;
-                }
-            }
-
-            /// <summary>
-            /// The NavigateRow1 item.
-            /// </summary>
-            [RepositoryItem("1b565cac-9444-407c-b499-85ea639bfd50")]
-            public virtual Ranorex.Cell NavigateRow1
-            {
-                get
-                {
-                    return _navigaterow1Info.CreateAdapter<Ranorex.Cell>(true);
-                }
-            }
-
-            /// <summary>
-            /// The NavigateRow1 item info.
-            /// </summary>
-            [RepositoryItemInfo("1b565cac-9444-407c-b499-85ea639bfd50")]
-            public virtual RepoItemInfo NavigateRow1Info
-            {
-                get
-                {
-                    return _navigaterow1Info;
-                }
-            }
-
-            /// <summary>
-            /// The EnabledStationsRow1 item.
-            /// </summary>
-            [RepositoryItem("10aa3498-a977-46b7-bb10-ca8d965f2320")]
-            public virtual Ranorex.Cell EnabledStationsRow1
-            {
-                get
-                {
-                    return _enabledstationsrow1Info.CreateAdapter<Ranorex.Cell>(true);
-                }
-            }
-
-            /// <summary>
-            /// The EnabledStationsRow1 item info.
-            /// </summary>
-            [RepositoryItemInfo("10aa3498-a977-46b7-bb10-ca8d965f2320")]
-            public virtual RepoItemInfo EnabledStationsRow1Info
-            {
-                get
-                {
-                    return _enabledstationsrow1Info;
-                }
-            }
-
-            /// <summary>
             /// The CS_StaLevel folder.
             /// </summary>
             [RepositoryFolder("f8c3bdb5-4842-4630-b9be-00f1fa85e056")]
             public virtual LynxDrive_ControlSystems_001RepositoryFolders.CS_StaLevelFolder CS_StaLevel
             {
                 get { return _cs_stalevel; }
+            }
+
+            /// <summary>
+            /// The CS_HubLevel folder.
+            /// </summary>
+            [RepositoryFolder("b983c49d-58bb-4543-b266-de857dc45f86")]
+            public virtual LynxDrive_ControlSystems_001RepositoryFolders.CS_HubLevelFolder CS_HubLevel
+            {
+                get { return _cs_hublevel; }
+            }
+
+            /// <summary>
+            /// The CS_DBLevel folder.
+            /// </summary>
+            [RepositoryFolder("ad2c6c34-6045-4ce1-91f7-4ea2cfcef93e")]
+            public virtual LynxDrive_ControlSystems_001RepositoryFolders.CS_DBLevelFolder CS_DBLevel
+            {
+                get { return _cs_dblevel; }
             }
         }
 
@@ -431,6 +301,7 @@ namespace LynxDrive_ControlSystems_001
         [RepositoryFolder("f8c3bdb5-4842-4630-b9be-00f1fa85e056")]
         public partial class CS_StaLevelFolder : RepoGenBaseFolder
         {
+            LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder _sidepanel;
             RepoItemInfo _rstationrowInfo;
             RepoItemInfo _rnamerowInfo;
             RepoItemInfo _rarearowInfo;
@@ -447,15 +318,16 @@ namespace LynxDrive_ControlSystems_001
             public CS_StaLevelFolder(RepoGenBaseFolder parentFolder) :
                     base("CS_StaLevel", "", parentFolder, 0, null, false, "f8c3bdb5-4842-4630-b9be-00f1fa85e056", "")
             {
-                _rstationrowInfo = new RepoItemInfo(this, "rStationRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$StationRowName and @accessiblevalue=$StationValue]", "", 30000, null, "da8185ec-bdc7-4db9-8037-1c16a69058af");
-                _rnamerowInfo = new RepoItemInfo(this, "rNameRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$NameRow]", "", 30000, null, "1ea7a6aa-4a78-40ae-850b-6f3005b4e7d2");
-                _rarearowInfo = new RepoItemInfo(this, "rAreaRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AreaRowName]", "", 30000, null, "3a2f91ef-1f38-4714-8b7a-f20377ef85b6");
-                _rholerowInfo = new RepoItemInfo(this, "rHoleRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$HoleRowName]", "", 30000, null, "083be34a-caf6-4d0d-99c9-cd05413e2311");
-                _rtagrowInfo = new RepoItemInfo(this, "rTagRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$TagRowName]", "", 30000, null, "644f57ed-d253-44d1-993f-65df96cae57e");
-                _rnosrowInfo = new RepoItemInfo(this, "rNOSRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename>$NOSRowName]", "", 30000, null, "9714ce46-ded0-4d83-8a41-7f7cbadb58dd");
-                _rlsmaddressrowInfo = new RepoItemInfo(this, "rLSMAddressRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AddRowName]", "", 30000, null, "37f707f1-525b-4106-8e65-883be8fe0fda");
-                _rlsmoffsetrowInfo = new RepoItemInfo(this, "rLSMOffsetRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$OffsetRowName]", "", 30000, null, "408175bd-c0ee-49ee-9035-349d20be6306");
-                _rwirepathrowInfo = new RepoItemInfo(this, "rWirePathRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$WPRowName]", "", 30000, null, "64a4749c-c186-4937-bea1-7bddcda93664");
+                _sidepanel = new LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder(this);
+                _rstationrowInfo = new RepoItemInfo(this, "rStationRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$StationRowName and @accessiblevalue=$StationValue]", "", 30000, null, "da8185ec-bdc7-4db9-8037-1c16a69058af");
+                _rnamerowInfo = new RepoItemInfo(this, "rNameRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$NameRow]", "", 30000, null, "1ea7a6aa-4a78-40ae-850b-6f3005b4e7d2");
+                _rarearowInfo = new RepoItemInfo(this, "rAreaRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AreaRowName]", "", 30000, null, "3a2f91ef-1f38-4714-8b7a-f20377ef85b6");
+                _rholerowInfo = new RepoItemInfo(this, "rHoleRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$HoleRowName]", "", 30000, null, "083be34a-caf6-4d0d-99c9-cd05413e2311");
+                _rtagrowInfo = new RepoItemInfo(this, "rTagRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$TagRowName]", "", 30000, null, "644f57ed-d253-44d1-993f-65df96cae57e");
+                _rnosrowInfo = new RepoItemInfo(this, "rNOSRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename>$NOSRowName]", "", 30000, null, "9714ce46-ded0-4d83-8a41-7f7cbadb58dd");
+                _rlsmaddressrowInfo = new RepoItemInfo(this, "rLSMAddressRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AddRowName]", "", 30000, null, "37f707f1-525b-4106-8e65-883be8fe0fda");
+                _rlsmoffsetrowInfo = new RepoItemInfo(this, "rLSMOffsetRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$OffsetRowName]", "", 30000, null, "408175bd-c0ee-49ee-9035-349d20be6306");
+                _rwirepathrowInfo = new RepoItemInfo(this, "rWirePathRow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$WPRowName]", "", 30000, null, "64a4749c-c186-4937-bea1-7bddcda93664");
             }
 
             /// <summary>
@@ -685,33 +557,62 @@ namespace LynxDrive_ControlSystems_001
                     return _rwirepathrowInfo;
                 }
             }
+
+            /// <summary>
+            /// The SidePanel folder.
+            /// </summary>
+            [RepositoryFolder("8d836c97-baf3-4411-b52c-dc9a40c04586")]
+            public virtual LynxDrive_ControlSystems_001RepositoryFolders.SidePanelFolder SidePanel
+            {
+                get { return _sidepanel; }
+            }
         }
 
         /// <summary>
-        /// The Comm_SelectFolder folder.
+        /// The SidePanelFolder folder.
         /// </summary>
-        [RepositoryFolder("ccaff60e-22db-4b13-8cc9-4561e3ee0119")]
-        public partial class Comm_SelectFolder : RepoGenBaseFolder
+        [RepositoryFolder("8d836c97-baf3-4411-b52c-dc9a40c04586")]
+        public partial class SidePanelFolder : RepoGenBaseFolder
         {
-            LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder _lynxclient;
-            RepoItemInfo _linkrow1Info;
-            RepoItemInfo _openInfo;
+            RepoItemInfo _rsidepanelscrollbarInfo;
+            RepoItemInfo _rsprinklermodelInfo;
+            RepoItemInfo _rnozzlemodelInfo;
+            RepoItemInfo _rarcInfo;
+            RepoItemInfo _rpressureInfo;
+            RepoItemInfo _rnumsprinklersInfo;
+            RepoItemInfo _rnozzleflowInfo;
+            RepoItemInfo _rbackflowInfo;
+            RepoItemInfo _rstaflowInfo;
+            RepoItemInfo _rpreciprateInfo;
+            RepoItemInfo _rpatternInfo;
+            RepoItemInfo _rsprinklerspacingInfo;
+            RepoItemInfo _rrowspacingInfo;
 
             /// <summary>
-            /// Creates a new Comm_Select  folder.
+            /// Creates a new SidePanel  folder.
             /// </summary>
-            public Comm_SelectFolder(RepoGenBaseFolder parentFolder) :
-                    base("Comm_Select", "", parentFolder, 0, null, false, "ccaff60e-22db-4b13-8cc9-4561e3ee0119", "")
+            public SidePanelFolder(RepoGenBaseFolder parentFolder) :
+                    base("SidePanel", "", parentFolder, 0, null, false, "8d836c97-baf3-4411-b52c-dc9a40c04586", "")
             {
-                _lynxclient = new LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder(this);
-                _linkrow1Info = new RepoItemInfo(this, "LinkRow1", "/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Link row 1']", "/form[@controlname='MainForm']//cell[@accessiblename='Link row 1']", 30000, null, "904273e2-f2c8-4ae4-ab81-dd7b09adaefa");
-                _openInfo = new RepoItemInfo(this, "Open", "/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel1>k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='<Panel1>k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/?/?/combobox[@accessiblename='Editing control']/button[@accessiblename='Open']", "/form[@controlname='MainForm']//button[@accessiblename='Open']", 30000, null, "632fc51e-60cd-4508-8219-d271159013d6");
+                _rsidepanelscrollbarInfo = new RepoItemInfo(this, "rSidePanelScrollBar", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']", ".//container[@controlname='stackPanel']", 30000, null, "175b26d9-3bfb-4529-b516-2c0896879aac");
+                _rsprinklermodelInfo = new RepoItemInfo(this, "rSprinklerModel", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='cpSprinklerModel']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']", ".//text[@controltypename='TextBox' and @instance='1' and @controltext='730']/combobox[@accessiblerole='ComboBox']", 30000, null, "abc3e607-0025-4f65-a47d-d455b127bd6c");
+                _rnozzlemodelInfo = new RepoItemInfo(this, "rNozzleModel", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='cpNozzleModel']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']", ".//combobox[@accessiblerole='ComboBox']", 30000, null, "11cb1423-6f1f-45ee-bb3f-23d3a3f9d257");
+                _rarcInfo = new RepoItemInfo(this, "rArc", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='npArc']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//text[@controltypename='TextBox' and @instance='0' and @controltext='360']/text[@controltypename='TextBox']", 30000, null, "0ac9611d-31d2-4764-802c-1e47284a334a");
+                _rpressureInfo = new RepoItemInfo(this, "rPressure", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='npPressure']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//text[@controlname='numericEdit']/text[@controltypename='TextBox']", 30000, null, "9f54a3fa-0684-4cef-86f6-58c02cb35f83");
+                _rnumsprinklersInfo = new RepoItemInfo(this, "rNumSprinklers", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npSprinklerCount']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//text[@controltypename='TextBox' and @instance='0' and @controltext='1']/text[@controltypename='TextBox']", 30000, null, "f270bdcd-4106-4eee-b92c-b8b5a7b913a7");
+                _rnozzleflowInfo = new RepoItemInfo(this, "rNozzleFlow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npNozzleFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//container[@controlname='npNozzleFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", 30000, null, "21354700-b26d-4efe-8fa4-702b4d6bd5d9");
+                _rbackflowInfo = new RepoItemInfo(this, "rBackFlow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npBackFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//text[@controltypename='TextBox' and @instance='0' and @controltext='0']/text[@controltypename='TextBox']", 30000, null, "7dc6ad49-f63e-411e-815c-3d9f58beaeaa");
+                _rstaflowInfo = new RepoItemInfo(this, "rStaFlow", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npStationFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//text[@controltypename='TextBox' and @instance='0' and @controltext='22']/text[@controltypename='TextBox']", 30000, null, "3a43408b-938d-4379-9b7f-375b0ca8e93f");
+                _rpreciprateInfo = new RepoItemInfo(this, "rPrecipRate", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npPrecipRate']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//text[@controltypename='TextBox' and @instance='0' and @controltext='0.57']/text[@controltypename='TextBox']", 30000, null, "c765f2ad-47a6-4a61-84e2-0f474ae2f32a");
+                _rpatternInfo = new RepoItemInfo(this, "rPattern", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='cpPattern']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']", ".//text[@controltypename='TextBox' and @instance='1' and @controltext='Triangle']/combobox[@accessiblerole='ComboBox']", 30000, null, "56b7ea5a-b999-402f-b862-4ab2e9849598");
+                _rsprinklerspacingInfo = new RepoItemInfo(this, "rSprinklerSpacing", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='npSprinklerSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//container[@controlname='npSprinklerSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", 30000, null, "f120039d-2ced-4585-82dc-7f86d020c9a1");
+                _rrowspacingInfo = new RepoItemInfo(this, "rRowSpacing", "container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='<Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='npRowSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", ".//container[@controlname='npRowSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']", 30000, null, "a96d516f-0934-402b-abb4-f15ca99f5722");
             }
 
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("ccaff60e-22db-4b13-8cc9-4561e3ee0119")]
+            [RepositoryItemInfo("8d836c97-baf3-4411-b52c-dc9a40c04586")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -721,125 +622,314 @@ namespace LynxDrive_ControlSystems_001
             }
 
             /// <summary>
-            /// The LinkRow1 item.
+            /// The rSidePanelScrollBar item.
             /// </summary>
-            [RepositoryItem("904273e2-f2c8-4ae4-ab81-dd7b09adaefa")]
-            public virtual Ranorex.Cell LinkRow1
+            [RepositoryItem("175b26d9-3bfb-4529-b516-2c0896879aac")]
+            public virtual Ranorex.Container rSidePanelScrollBar
             {
                 get
                 {
-                    return _linkrow1Info.CreateAdapter<Ranorex.Cell>(true);
+                    return _rsidepanelscrollbarInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The LinkRow1 item info.
+            /// The rSidePanelScrollBar item info.
             /// </summary>
-            [RepositoryItemInfo("904273e2-f2c8-4ae4-ab81-dd7b09adaefa")]
-            public virtual RepoItemInfo LinkRow1Info
+            [RepositoryItemInfo("175b26d9-3bfb-4529-b516-2c0896879aac")]
+            public virtual RepoItemInfo rSidePanelScrollBarInfo
             {
                 get
                 {
-                    return _linkrow1Info;
+                    return _rsidepanelscrollbarInfo;
                 }
             }
 
             /// <summary>
-            /// The Open item.
+            /// The rSprinklerModel item.
             /// </summary>
-            [RepositoryItem("632fc51e-60cd-4508-8219-d271159013d6")]
-            public virtual Ranorex.Button Open
+            [RepositoryItem("abc3e607-0025-4f65-a47d-d455b127bd6c")]
+            public virtual Ranorex.ComboBox rSprinklerModel
             {
                 get
                 {
-                    return _openInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _rsprinklermodelInfo.CreateAdapter<Ranorex.ComboBox>(true);
                 }
             }
 
             /// <summary>
-            /// The Open item info.
+            /// The rSprinklerModel item info.
             /// </summary>
-            [RepositoryItemInfo("632fc51e-60cd-4508-8219-d271159013d6")]
-            public virtual RepoItemInfo OpenInfo
+            [RepositoryItemInfo("abc3e607-0025-4f65-a47d-d455b127bd6c")]
+            public virtual RepoItemInfo rSprinklerModelInfo
             {
                 get
                 {
-                    return _openInfo;
+                    return _rsprinklermodelInfo;
                 }
             }
 
             /// <summary>
-            /// The LynxClient folder.
+            /// The rNozzleModel item.
             /// </summary>
-            [RepositoryFolder("e1f1b252-fbad-4b81-9a23-08bb7c90a7d3")]
-            public virtual LynxDrive_ControlSystems_001RepositoryFolders.LynxClientAppFolder LynxClient
-            {
-                get { return _lynxclient; }
-            }
-        }
-
-        /// <summary>
-        /// The LynxClientAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("e1f1b252-fbad-4b81-9a23-08bb7c90a7d3")]
-        public partial class LynxClientAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _wirelink1unassignedInfo;
-
-            /// <summary>
-            /// Creates a new LynxClient  folder.
-            /// </summary>
-            public LynxClientAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("LynxClient", "/form[@title='']", parentFolder, 30000, null, true, "e1f1b252-fbad-4b81-9a23-08bb7c90a7d3", "")
-            {
-                _wirelink1unassignedInfo = new RepoItemInfo(this, "WIRELINK1Unassigned", "?/?/list[@accessiblename='']/listitem[@accessiblename='WIRELINK1 (Unassigned)']", ".//listitem[@accessiblename='WIRELINK1 (Unassigned)']", 30000, null, "2b1682f4-04e6-4f48-9271-26220142aad5");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("e1f1b252-fbad-4b81-9a23-08bb7c90a7d3")]
-            public virtual Ranorex.Form Self
+            [RepositoryItem("11cb1423-6f1f-45ee-bb3f-23d3a3f9d257")]
+            public virtual Ranorex.ComboBox rNozzleModel
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                    return _rnozzlemodelInfo.CreateAdapter<Ranorex.ComboBox>(true);
                 }
             }
 
             /// <summary>
-            /// The Self item info.
+            /// The rNozzleModel item info.
             /// </summary>
-            [RepositoryItemInfo("e1f1b252-fbad-4b81-9a23-08bb7c90a7d3")]
-            public virtual RepoItemInfo SelfInfo
+            [RepositoryItemInfo("11cb1423-6f1f-45ee-bb3f-23d3a3f9d257")]
+            public virtual RepoItemInfo rNozzleModelInfo
             {
                 get
                 {
-                    return _selfInfo;
+                    return _rnozzlemodelInfo;
                 }
             }
 
             /// <summary>
-            /// The WIRELINK1Unassigned item.
+            /// The rArc item.
             /// </summary>
-            [RepositoryItem("2b1682f4-04e6-4f48-9271-26220142aad5")]
-            public virtual Ranorex.ListItem WIRELINK1Unassigned
+            [RepositoryItem("0ac9611d-31d2-4764-802c-1e47284a334a")]
+            public virtual Ranorex.Text rArc
             {
                 get
                 {
-                    return _wirelink1unassignedInfo.CreateAdapter<Ranorex.ListItem>(true);
+                    return _rarcInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The WIRELINK1Unassigned item info.
+            /// The rArc item info.
             /// </summary>
-            [RepositoryItemInfo("2b1682f4-04e6-4f48-9271-26220142aad5")]
-            public virtual RepoItemInfo WIRELINK1UnassignedInfo
+            [RepositoryItemInfo("0ac9611d-31d2-4764-802c-1e47284a334a")]
+            public virtual RepoItemInfo rArcInfo
             {
                 get
                 {
-                    return _wirelink1unassignedInfo;
+                    return _rarcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rPressure item.
+            /// </summary>
+            [RepositoryItem("9f54a3fa-0684-4cef-86f6-58c02cb35f83")]
+            public virtual Ranorex.Text rPressure
+            {
+                get
+                {
+                    return _rpressureInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rPressure item info.
+            /// </summary>
+            [RepositoryItemInfo("9f54a3fa-0684-4cef-86f6-58c02cb35f83")]
+            public virtual RepoItemInfo rPressureInfo
+            {
+                get
+                {
+                    return _rpressureInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rNumSprinklers item.
+            /// </summary>
+            [RepositoryItem("f270bdcd-4106-4eee-b92c-b8b5a7b913a7")]
+            public virtual Ranorex.Text rNumSprinklers
+            {
+                get
+                {
+                    return _rnumsprinklersInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rNumSprinklers item info.
+            /// </summary>
+            [RepositoryItemInfo("f270bdcd-4106-4eee-b92c-b8b5a7b913a7")]
+            public virtual RepoItemInfo rNumSprinklersInfo
+            {
+                get
+                {
+                    return _rnumsprinklersInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rNozzleFlow item.
+            /// </summary>
+            [RepositoryItem("21354700-b26d-4efe-8fa4-702b4d6bd5d9")]
+            public virtual Ranorex.Text rNozzleFlow
+            {
+                get
+                {
+                    return _rnozzleflowInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rNozzleFlow item info.
+            /// </summary>
+            [RepositoryItemInfo("21354700-b26d-4efe-8fa4-702b4d6bd5d9")]
+            public virtual RepoItemInfo rNozzleFlowInfo
+            {
+                get
+                {
+                    return _rnozzleflowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rBackFlow item.
+            /// </summary>
+            [RepositoryItem("7dc6ad49-f63e-411e-815c-3d9f58beaeaa")]
+            public virtual Ranorex.Text rBackFlow
+            {
+                get
+                {
+                    return _rbackflowInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rBackFlow item info.
+            /// </summary>
+            [RepositoryItemInfo("7dc6ad49-f63e-411e-815c-3d9f58beaeaa")]
+            public virtual RepoItemInfo rBackFlowInfo
+            {
+                get
+                {
+                    return _rbackflowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rStaFlow item.
+            /// </summary>
+            [RepositoryItem("3a43408b-938d-4379-9b7f-375b0ca8e93f")]
+            public virtual Ranorex.Text rStaFlow
+            {
+                get
+                {
+                    return _rstaflowInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rStaFlow item info.
+            /// </summary>
+            [RepositoryItemInfo("3a43408b-938d-4379-9b7f-375b0ca8e93f")]
+            public virtual RepoItemInfo rStaFlowInfo
+            {
+                get
+                {
+                    return _rstaflowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rPrecipRate item.
+            /// </summary>
+            [RepositoryItem("c765f2ad-47a6-4a61-84e2-0f474ae2f32a")]
+            public virtual Ranorex.Text rPrecipRate
+            {
+                get
+                {
+                    return _rpreciprateInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rPrecipRate item info.
+            /// </summary>
+            [RepositoryItemInfo("c765f2ad-47a6-4a61-84e2-0f474ae2f32a")]
+            public virtual RepoItemInfo rPrecipRateInfo
+            {
+                get
+                {
+                    return _rpreciprateInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rPattern item.
+            /// </summary>
+            [RepositoryItem("56b7ea5a-b999-402f-b862-4ab2e9849598")]
+            public virtual Ranorex.ComboBox rPattern
+            {
+                get
+                {
+                    return _rpatternInfo.CreateAdapter<Ranorex.ComboBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rPattern item info.
+            /// </summary>
+            [RepositoryItemInfo("56b7ea5a-b999-402f-b862-4ab2e9849598")]
+            public virtual RepoItemInfo rPatternInfo
+            {
+                get
+                {
+                    return _rpatternInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rSprinklerSpacing item.
+            /// </summary>
+            [RepositoryItem("f120039d-2ced-4585-82dc-7f86d020c9a1")]
+            public virtual Ranorex.Text rSprinklerSpacing
+            {
+                get
+                {
+                    return _rsprinklerspacingInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rSprinklerSpacing item info.
+            /// </summary>
+            [RepositoryItemInfo("f120039d-2ced-4585-82dc-7f86d020c9a1")]
+            public virtual RepoItemInfo rSprinklerSpacingInfo
+            {
+                get
+                {
+                    return _rsprinklerspacingInfo;
+                }
+            }
+
+            /// <summary>
+            /// The rRowSpacing item.
+            /// </summary>
+            [RepositoryItem("a96d516f-0934-402b-abb4-f15ca99f5722")]
+            public virtual Ranorex.Text rRowSpacing
+            {
+                get
+                {
+                    return _rrowspacingInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The rRowSpacing item info.
+            /// </summary>
+            [RepositoryItemInfo("a96d516f-0934-402b-abb4-f15ca99f5722")]
+            public virtual RepoItemInfo rRowSpacingInfo
+            {
+                get
+                {
+                    return _rrowspacingInfo;
                 }
             }
         }
@@ -891,6 +981,46 @@ namespace LynxDrive_ControlSystems_001
             /// The Self item info.
             /// </summary>
             [RepositoryItemInfo("ad2c6c34-6045-4ce1-91f7-4ea2cfcef93e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The FormMainAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f640f73a-3c69-4234-a594-c821f9927dae")]
+        public partial class FormMainAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new FormMain  folder.
+            /// </summary>
+            public FormMainAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("FormMain", "/form[@controlname='FormMain']", parentFolder, 30000, null, true, "f640f73a-3c69-4234-a594-c821f9927dae", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f640f73a-3c69-4234-a594-c821f9927dae")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f640f73a-3c69-4234-a594-c821f9927dae")]
             public virtual RepoItemInfo SelfInfo
             {
                 get

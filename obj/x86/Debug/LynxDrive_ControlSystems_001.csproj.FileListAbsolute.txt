@@ -23,3 +23,4 @@ C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDri
 C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.csproj.CopyComplete
 C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.exe
 C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\obj\x86\Debug\LynxDrive_ControlSystems_001.pdb
+C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\bin\Debug\LSM304Sta2.csv

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.13s"
+		durationms="4126"
+		type="root"
+		rid="e0599f60587c70"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NSN"
+		rxversion="11.1.1.0"
+		host="IRRIGATION"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2560x1080"
+		timestamp="3/26/2024 7:22:19 AM"
+		timestampiso="2024-03-26T14:22:19"
+		endtime="3/26/2024 7:22:23 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.109"
+			timeRelativeToTestModuleStartTime="00:04.109"
+			timeWallClock="07:22:23"
+			time="00:04.109"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Toro_Lynx\Tools\Launcher\Launcher.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\NSN\Documents\GitHub\LynxDrive_ControlSystems_001\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

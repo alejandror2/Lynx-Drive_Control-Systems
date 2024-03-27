@@ -21,66 +21,6 @@ name="LynxDrive_ControlSystems_001Repository">
 		refpath="/form[@controlname='MainForm']"
 		searchtimeout="30000ms"
 		usecache="True">
-			<item
-			addcaps="cell,accessible"
-			capname="cell"
-			comment="Enter Hub Num IB"
-			id="5679f5ef-e681-46fc-9a21-22a128a461e7"
-			name="SmartHubRow1"
-			refimgid="e6a0a9fa-7024-40ad-bc6f-a7e768f097cf"
-			refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename='Smart Hub row 1']"
-			robustPath="/form[@controlname='MainForm']//cell[@accessiblename='Smart Hub row 1']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Smart Hub row 1']
-			</item>
-			<item
-			addcaps="cell,accessible"
-			capname="cell"
-			comment="Red Flag BTN"
-			id="e748eb92-9f28-45c1-8fd3-e569117c86aa"
-			name="Status1Row1"
-			refimgid="50b2c581-3a86-46f6-bec8-ab344e57f29c"
-			refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename='Status1 row 1']"
-			robustPath="/form[@controlname='MainForm']//cell[@accessiblename='Status1 row 1']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Status1 row 1']
-			</item>
-			<item
-			addcaps="cell,accessible"
-			capname="cell"
-			comment="MSG BTN"
-			id="f82f2ab7-2a90-43ff-ad7d-f457054ca4cf"
-			name="Status2Row1"
-			refimgid="54368365-612f-4c41-9269-f179b9913ba7"
-			refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename='Status2 row 1']"
-			robustPath="/form[@controlname='MainForm']//cell[@accessiblename='Status2 row 1']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Status2 row 1']
-			</item>
-			<item
-			addcaps="cell,accessible"
-			capname="cell"
-			comment="Access DB Level BTN"
-			id="1b565cac-9444-407c-b499-85ea639bfd50"
-			name="NavigateRow1"
-			refimgid="b0d407e3-d62a-4fe1-8bb6-cb6e670529ad"
-			refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename='Navigate row 1']"
-			robustPath="/form[@controlname='MainForm']//cell[@accessiblename='Navigate row 1']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Navigate row 1']
-			</item>
-			<item
-			addcaps="cell,accessible"
-			capname="cell"
-			comment="Enable Sta Count X/1000"
-			id="10aa3498-a977-46b7-bb10-ca8d965f2320"
-			name="EnabledStationsRow1"
-			refimgid="d03d7f2c-f8df-494b-acf6-bb8392df6f08"
-			refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename='Enabled Stations row 1']"
-			robustPath="/form[@controlname='MainForm']//cell[@accessiblename='Enabled Stations row 1']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Enabled Stations row 1']
-			</item>
 			<folder
 			capname="unknown"
 			id="f8c3bdb5-4842-4630-b9be-00f1fa85e056"
@@ -95,7 +35,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="3c58aa33-028a-4ecf-9b9a-bdfb2795278a"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$StationRowName and @accessiblevalue=$StationValue]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$StationRowName and @accessiblevalue=$StationValue]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -105,7 +45,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="6b71bd47-1e14-448b-b7d3-ec3674b51678"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$NameRow]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$NameRow]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -115,7 +55,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="c6366608-e6a8-415c-b2a2-5c29a725d5d2"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AreaRowName]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AreaRowName]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -125,7 +65,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="61316547-f5cb-4736-b4fb-54707770e53d"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$HoleRowName]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$HoleRowName]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -135,7 +75,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="49d07d44-a612-4d9e-891d-dd7b8fe40c1d"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$TagRowName]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$TagRowName]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -145,7 +85,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="55852b1b-3f63-4bc1-8580-5ca530d50590"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename&gt;$NOSRowName]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename&gt;$NOSRowName]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -155,7 +95,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="4bfd97d5-8ec6-4792-8a0a-3e2b7e45f1f7"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AddRowName]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$AddRowName]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -165,7 +105,7 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="167d4f2f-3ed5-4d22-b590-1ea172bb8558"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$OffsetRowName]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$OffsetRowName]
 				</item>
 				<item
 				addcaps="cell,accessible"
@@ -175,8 +115,172 @@ name="LynxDrive_ControlSystems_001Repository">
 				refimgid="96bf20c0-d415-4ce4-8812-f5d988682930"
 				robustPath=""
 				searchtimeout="30000ms">
-					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$WPRowName]
+					/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename=$StationAccessRow]/cell[@accessiblename=$WPRowName]
 				</item>
+				<folder
+				capname="unknown"
+				id="8d836c97-baf3-4411-b52c-dc9a40c04586"
+				isrooted="False"
+				name="SidePanel"
+				searchtimeout="0ms">
+					<item
+					addcaps="container,winformscorecontrol,nativewindow"
+					capname="container"
+					id="175b26d9-3bfb-4529-b516-2c0896879aac"
+					name="rSidePanelScrollBar"
+					refimgid="3e795cac-9190-4ede-ac55-8da503ae375b"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']"
+					robustPath="/form[@controlname='MainForm']//container[@controlname='stackPanel']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']
+					</item>
+					<item
+					addcaps="combobox,accessible"
+					capname="combobox"
+					id="abc3e607-0025-4f65-a47d-d455b127bd6c"
+					name="rSprinklerModel"
+					refimgid="1cd9cb44-e678-4c6c-a883-0f29e3583564"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='cpSprinklerModel']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controltypename='TextBox' and @instance='1' and @controltext='730']/combobox[@accessiblerole='ComboBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='cpSprinklerModel']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']
+					</item>
+					<item
+					addcaps="combobox,accessible"
+					capname="combobox"
+					id="11cb1423-6f1f-45ee-bb3f-23d3a3f9d257"
+					name="rNozzleModel"
+					refimgid="3f355c19-a3a9-48e8-88a4-dc0a459366ec"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='cpNozzleModel']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']"
+					robustPath="/form[@controlname='MainForm']//combobox[@accessiblerole='ComboBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='cpNozzleModel']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="0ac9611d-31d2-4764-802c-1e47284a334a"
+					name="rArc"
+					refimgid="9d4670a2-e600-4149-9c78-76de83cf674d"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='npArc']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controltypename='TextBox' and @instance='0' and @controltext='360']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='npArc']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="9f54a3fa-0684-4cef-86f6-58c02cb35f83"
+					name="rPressure"
+					refimgid="215ee4c3-ce11-4e43-9c5b-4636295f4052"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='npPressure']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='1']/container[@controlname='lynxPanel']/container[@controlname='npPressure']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="f270bdcd-4106-4eee-b92c-b8b5a7b913a7"
+					name="rNumSprinklers"
+					refimgid="518852e1-f8da-4506-9e52-59640c914559"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npSprinklerCount']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controltypename='TextBox' and @instance='0' and @controltext='1']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npSprinklerCount']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="21354700-b26d-4efe-8fa4-702b4d6bd5d9"
+					name="rNozzleFlow"
+					refimgid="8ada17db-dfbf-4dcd-bf7e-a096aca758fa"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npNozzleFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//container[@controlname='npNozzleFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npNozzleFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="7dc6ad49-f63e-411e-815c-3d9f58beaeaa"
+					name="rBackFlow"
+					refimgid="2d582e26-64ab-42f7-ad77-86ab5bdb923b"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npBackFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controltypename='TextBox' and @instance='0' and @controltext='0']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npBackFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="3a43408b-938d-4379-9b7f-375b0ca8e93f"
+					name="rStaFlow"
+					refimgid="7c532791-6318-4f82-b746-77a5187c7681"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npStationFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controltypename='TextBox' and @instance='0' and @controltext='22']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npStationFlow']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="c765f2ad-47a6-4a61-84e2-0f474ae2f32a"
+					name="rPrecipRate"
+					refimgid="e163ae84-2b93-4c87-8702-ee3e35dcffb3"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npPrecipRate']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controltypename='TextBox' and @instance='0' and @controltext='0.57']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='2']/container[@controlname='lynxPanel']/container[@controlname='npPrecipRate']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="combobox,accessible"
+					capname="combobox"
+					id="56b7ea5a-b999-402f-b862-4ab2e9849598"
+					name="rPattern"
+					refimgid="f90a9ad5-ad4e-4b34-bacc-311a33d0b71d"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='cpPattern']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']"
+					robustPath="/form[@controlname='MainForm']//text[@controltypename='TextBox' and @instance='1' and @controltext='Triangle']/combobox[@accessiblerole='ComboBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='cpPattern']/container[@controlname='tableLayoutPanel1']/text[@controlname='comboBoxEdit']/combobox[@accessiblerole='ComboBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="f120039d-2ced-4585-82dc-7f86d020c9a1"
+					name="rSprinklerSpacing"
+					refimgid="b4c1b825-b378-4857-afbf-c76abe6f357f"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='npSprinklerSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//container[@controlname='npSprinklerSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='npSprinklerSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+					<item
+					addcaps="text,winformscorecontrol,nativewindow"
+					capname="text"
+					id="a96d516f-0934-402b-abb4-f15ca99f5722"
+					name="rRowSpacing"
+					refimgid="4eddfa40-415c-4f04-b1f0-9ac8d17ccef1"
+					refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2>k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@controlname='lynxGroupPanel1' and @caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='npRowSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					robustPath="/form[@controlname='MainForm']//container[@controlname='npRowSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']"
+					searchtimeout="30000ms">
+						/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel2&gt;k__BackingField']/container[@controlname='detailPanel']/container[@controlname='stackPanel']/container[@caption='' and @controltypename='ScrollableControl' and @instance='3']/container[@controlname='lynxPanel']/container[@controlname='npRowSpacing']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']/text[@controlname='numericEdit']/text[@controltypename='TextBox']
+					</item>
+				</folder>
+			</folder>
+			<folder
+			capname="unknown"
+			id="b983c49d-58bb-4543-b266-de857dc45f86"
+			isrooted="False"
+			name="CS_HubLevel"
+			searchtimeout="0ms">
+			</folder>
+			<folder
+			capname="unknown"
+			id="ad2c6c34-6045-4ce1-91f7-4ea2cfcef93e"
+			isrooted="False"
+			name="CS_DBLevel"
+			searchtimeout="0ms">
 			</folder>
 			<basepath>
 				/form[@controlname='MainForm']
@@ -192,82 +296,26 @@ KQIDigEScDwyYLFrPJJg+jqn+P9rjAJw/6MYQA6GRyMI3FE1xKoIF34am47QPICAgQEA/WNWrf55
 eLQAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
-		<folder
-		capname="unknown"
-		id="ccaff60e-22db-4b13-8cc9-4561e3ee0119"
-		isrooted="False"
-		name="Comm_Select"
-		searchtimeout="0ms">
-			<item
-			addcaps="cell,accessible"
-			capname="cell"
-			comment="WL BTN DD"
-			id="904273e2-f2c8-4ae4-ab81-dd7b09adaefa"
-			name="LinkRow1"
-			refimgid="e3e6d1eb-b768-44c0-9956-0dc1b246906b"
-			refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspace']/container[@controlname='workspaceSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container[@controlname='workspacePanel']/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/container[@accessiblename='Data Panel']/listitem[@accessiblename='Row 1']/cell[@accessiblename='Link row 1']"
-			robustPath="/form[@controlname='MainForm']//cell[@accessiblename='Link row 1']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/table[@accessiblename='MainView']/?/?/listitem[@accessiblename='Row 1']/cell[@accessiblename='Link row 1']
-			</item>
-			<item
-			addcaps="button,accessible"
-			capname="button"
-			comment="DB BTN"
-			id="632fc51e-60cd-4508-8219-d271159013d6"
-			name="Open"
-			refimgid="42e93330-8036-4c97-91da-277436885514"
-			refpath="/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1>k__BackingField']/container/container/grip[@controlname='&lt;Panel1>k__BackingField']/container/container/element[@controlname='grid']/text/combobox/button[@accessiblename='Open']"
-			robustPath="/form[@controlname='MainForm']//button[@accessiblename='Open']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='secondaryPanel']/container[@controlname='detailSplitter']/grip[@controlname='&lt;Panel1&gt;k__BackingField']/container[@controlname='workspace']/?/?/grip[@controlname='&lt;Panel1&gt;k__BackingField']/?/?/container[@controlname='ControlSystemWorkspace']/element[@controlname='grid']/?/?/combobox[@accessiblename='Editing control']/button[@accessiblename='Open']
-			</item>
-			<appfolder
-			addcaps="form,winformscorecontrol,nativewindow"
-			capname="form"
-			comment="COM Type Select"
-			id="e1f1b252-fbad-4b81-9a23-08bb7c90a7d3"
-			isrooted="True"
-			name="LynxClient"
-			refpath="/form[@title='']"
-			searchtimeout="30000ms"
-			usecache="True">
-				<item
-				addcaps="listitem,accessible"
-				capname="listitem"
-				id="2b1682f4-04e6-4f48-9271-26220142aad5"
-				name="WIRELINK1Unassigned"
-				refimgid="a6c06089-414d-40ed-96f5-e996233bf8a0"
-				refpath="/form[@title='']/element/list/listitem[@accessiblename='WIRELINK1 (Unassigned)']"
-				robustPath="/form[@title='']//listitem[@accessiblename='WIRELINK1 (Unassigned)']"
-				searchtimeout="30000ms">
-					/form[@title='']/?/?/list[@accessiblename='']/listitem[@accessiblename='WIRELINK1 (Unassigned)']
-				</item>
-				<basepath>
-					/form[@title='']
-				</basepath>
-				<icon>
-					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABoSURBVDhP1YxRDsAgCEM5ujdnLcLCYhP929bk
-RcVXDHGF+xlw1zJRsgLuWiZKVsBdy0TJCto4n7y7AOXILbTIdxWL/IvPEHbpZZLjDyxAeO9vnSoW
-OTYbw4Ndepnk+HwBQqkz85MFZhfr3VjAqEbkaAAAAABJRU5ErkJggg==
-				</icon>
-			</appfolder>
-		</folder>
-		<folder
-		capname="unknown"
-		id="b983c49d-58bb-4543-b266-de857dc45f86"
-		isrooted="False"
-		name="CS_HubLevel"
-		searchtimeout="0ms">
-		</folder>
-		<folder
-		capname="unknown"
-		id="ad2c6c34-6045-4ce1-91f7-4ea2cfcef93e"
-		isrooted="False"
-		name="CS_DBLevel"
-		searchtimeout="0ms">
-		</folder>
+		<appfolder
+		addcaps="form,winformscorecontrol,nativewindow"
+		capname="form"
+		id="f640f73a-3c69-4234-a594-c821f9927dae"
+		isrooted="True"
+		name="FormMain"
+		refpath="/form[@controlname='FormMain']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@controlname='FormMain']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACQSURBVDhPpZABDoAgDAN5+p7Gz9DCSjqYiWiT
+C6N0MC232k9Sc8Oc5Cw1m5nFVdDczWb0JkjX1xMgXGvtjRT2nCQhGtq81mvWiQbH5qvUpwlURxPo
+yxC9NevsJsL8BK5ZzknNE8aLNFArnCBjXqA/CAfaBGHPjNbOMPVWBuixSWtvHhcwCLiXwPQezmPw
+jNIupDS1kV4/kF4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

@@ -1,0 +1,3282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.5m"
+		durationms="271997"
+		type="root"
+		rid="2a5825e8f60b58a9"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="8"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NSN"
+		rxversion="11.1.1.0"
+		host="IRRIGATION"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3640x1920"
+		timestamp="3/26/2024 11:08:33 AM"
+		timestampiso="2024-03-26T18:08:33"
+		endtime="3/26/2024 11:13:05 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4.5m"
+			durationms="267623"
+			type="test-suite"
+			rid="376966d5e18147be"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="1"
+			totalsuccesscount="8"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="LynxDrive_ControlSystems_001"
+			headertext="LynxDrive_ControlSystems_001"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Ignored"
+				duration="1ms"
+				durationms="1"
+				type="setup-container"
+				rid="44983cae1a4bc02"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+			</activity>
+			<activity
+				result="Failed"
+				duration="4.5m"
+				durationms="267608"
+				type="test-case"
+				rid="375e68dc268e52a"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="8"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="ControlSystems_LSM"
+				testcontainerid="87b654c9-6b7b-455a-89ed-7e36482d2dd2"
+				headertext="ControlSystems_LSM"
+				displayName="ControlSystems_LSM"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="iteration">
+					</param>
+				</params>
+				<detail>
+					Test Control Systems: For LSM platform Lynx Drive
+				</detail>
+				<activity
+					result="Failed"
+					duration="4.5m"
+					durationms="267587"
+					type="iteration-container"
+					rid="3e04152f9ddcfba"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="8"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="8"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					displayName="StationLevelTest"
+					headertext="StationLevelTest"
+					testentry-activity-type="smartfolder"
+					iteration-exectype="dataiteration"
+					testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+					datasource="LSMSta304_1"
+					dataiterationcount="304">
+					<params>
+						<param
+							name="NewParameter">
+						</param>
+					</params>
+					<activity
+						result="Success"
+						duration="28.36s"
+						durationms="28361"
+						type="smart-folder"
+						rid="6adbf0be364a02"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="1"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-1
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 1
+							</field>
+							<field
+								name="StationRowName">
+								Station row 1
+							</field>
+							<field
+								name="Name">
+								~!@#$%^&amp;*()_+&lt;&gt;?:&quot;|
+							</field>
+							<field
+								name="NameRow">
+								Name row 1
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 1
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 1
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 1
+							</field>
+							<field
+								name="NOS">
+								-1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								1D84A1
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 1
+							</field>
+							<field
+								name="LSM Offset">
+								2
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 1
+							</field>
+							<field
+								name="Wire Path">
+								4251
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 1
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								361
+							</field>
+							<field
+								name="Pressure">
+								-1
+							</field>
+							<field
+								name="Num Sprinklers">
+								151
+							</field>
+							<field
+								name="Nozzle Flow">
+								301
+							</field>
+							<field
+								name="Back Flow">
+								301
+							</field>
+							<field
+								name="Sta Flow">
+								-1
+							</field>
+							<field
+								name="Precip Rate">
+								-1
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								201
+							</field>
+							<field
+								name="Row Spacing">
+								201
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="23.42s"
+							durationms="23416"
+							type="test-module"
+							rid="2ad3a55d89ff6b70"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 1">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="4251">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 1">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="2">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 1">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="1D84A1">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 1">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 1">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 1">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 1">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="~!@#$%^&amp;*()_+&lt;>?:&quot;|">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-1">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 1">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 1">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.054"
+								timeRelativeToTestModuleStartTime="00:00.005"
+								timeWallClock="11:08:38"
+								time="00:00.054"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 1', $cmWPValue = '4251', $cmOffsetRowName = 'LSMOffset row 1', $cmOffsetVal = '2', $cmAddRowName = 'LSMAddress row 1', $cmAddVal = '1D84A1', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '-1', $cmTagRowName = 'Tag row 1', $cmHoleRowName = 'Hole row 1', $cmHoelVal = '1', $cmAreaRowName = 'Area row 1', $cmAreaVal = 'G', $cmNameRow = 'Name row 1', $cmNameVal = '~!@#$%^&amp;*()_+&lt;&gt;?:&quot;|', $cmStationVal = '1-1-1', $cmStationRowName = 'Station row 1', $cmStationAccessRow = 'Row 1'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="4.93s"
+							durationms="4929"
+							type="test-module"
+							rid="3fbd8bb1f2e3f16"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="361">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="151">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="301">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="301">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="201">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="201">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:23.469"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="11:09:01"
+								time="00:23.469"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '361', $cmPressure = '-1', $cmNumSprinklers = '151', $cmNozzleFlow = '301', $cmBackFlow = '301', $cmStaFlow = '-1', $cmPrecipRate = '-1', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '201', $cmRowSpacing = '201'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="24.6s"
+						durationms="24596"
+						type="smart-folder"
+						rid="165d92b2b5cb7a0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="2"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-2
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 2
+							</field>
+							<field
+								name="StationRowName">
+								Station row 2
+							</field>
+							<field
+								name="Name">
+								`1234567890-=[];',./
+							</field>
+							<field
+								name="NameRow">
+								Name row 2
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 2
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 2
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 2
+							</field>
+							<field
+								name="NOS">
+								251
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								1D8498
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 2
+							</field>
+							<field
+								name="LSM Offset">
+								-1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 2
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 2
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								-1
+							</field>
+							<field
+								name="Pressure">
+								101
+							</field>
+							<field
+								name="Num Sprinklers">
+								-1
+							</field>
+							<field
+								name="Nozzle Flow">
+								-1
+							</field>
+							<field
+								name="Back Flow">
+								-1
+							</field>
+							<field
+								name="Sta Flow">
+								501
+							</field>
+							<field
+								name="Precip Rate">
+								101
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								-1
+							</field>
+							<field
+								name="Row Spacing">
+								-1
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="21.07s"
+							durationms="21066"
+							type="test-module"
+							rid="6c704d4f83d83"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 2">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 2">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 2">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="1D8498">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="251">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 2">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 2">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 2">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 2">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="`1234567890-=[];',./">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-2">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 2">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 2">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:28.401"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:09:06"
+								time="00:28.401"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 2', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 2', $cmOffsetVal = '-1', $cmAddRowName = 'LSMAddress row 2', $cmAddVal = '1D8498', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '251', $cmTagRowName = 'Tag row 2', $cmHoleRowName = 'Hole row 2', $cmHoelVal = '1', $cmAreaRowName = 'Area row 2', $cmAreaVal = 'G', $cmNameRow = 'Name row 2', $cmNameVal = '`1234567890-=[];',./', $cmStationVal = '1-1-2', $cmStationRowName = 'Station row 2', $cmStationAccessRow = 'Row 2'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.53s"
+							durationms="3527"
+							type="test-module"
+							rid="1d935a45662c1c01"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="101">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="501">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="101">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="-1">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="-1">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:49.469"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:09:27"
+								time="00:49.469"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '-1', $cmPressure = '101', $cmNumSprinklers = '-1', $cmNozzleFlow = '-1', $cmBackFlow = '-1', $cmStaFlow = '501', $cmPrecipRate = '101', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '-1', $cmRowSpacing = '-1'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="23.05s"
+						durationms="23045"
+						type="smart-folder"
+						rid="b5fc99e3047e15e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="3"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-3
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 3
+							</field>
+							<field
+								name="StationRowName">
+								Station row 3
+							</field>
+							<field
+								name="Name">
+								Sta 3
+							</field>
+							<field
+								name="NameRow">
+								Name row 3
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 3
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 3
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 3
+							</field>
+							<field
+								name="NOS">
+								1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								1D8492
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 3
+							</field>
+							<field
+								name="LSM Offset">
+								1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 3
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 3
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								90
+							</field>
+							<field
+								name="Pressure">
+								50
+							</field>
+							<field
+								name="Num Sprinklers">
+								1
+							</field>
+							<field
+								name="Nozzle Flow">
+								22
+							</field>
+							<field
+								name="Back Flow">
+								10
+							</field>
+							<field
+								name="Sta Flow">
+								22
+							</field>
+							<field
+								name="Precip Rate">
+								0.57
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								65
+							</field>
+							<field
+								name="Row Spacing">
+								0
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="19.85s"
+							durationms="19845"
+							type="test-module"
+							rid="48d9c53753a284c"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 3">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 3">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 3">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="1D8492">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 3">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 3">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 3">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 3">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="Sta 3">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-3">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 3">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 3">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:52.999"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:09:30"
+								time="00:52.999"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 3', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 3', $cmOffsetVal = '1', $cmAddRowName = 'LSMAddress row 3', $cmAddVal = '1D8492', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '1', $cmTagRowName = 'Tag row 3', $cmHoleRowName = 'Hole row 3', $cmHoelVal = '1', $cmAreaRowName = 'Area row 3', $cmAreaVal = 'G', $cmNameRow = 'Name row 3', $cmNameVal = 'Sta 3', $cmStationVal = '1-1-3', $cmStationRowName = 'Station row 3', $cmStationAccessRow = 'Row 3'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.19s"
+							durationms="3194"
+							type="test-module"
+							rid="a0d68cf158df8b0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="90">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="50">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="10">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="0.57">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="65">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="0">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:12.848"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:09:50"
+								time="01:12.848"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '90', $cmPressure = '50', $cmNumSprinklers = '1', $cmNozzleFlow = '22', $cmBackFlow = '10', $cmStaFlow = '22', $cmPrecipRate = '0.57', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '65', $cmRowSpacing = '0'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="21.55s"
+						durationms="21551"
+						type="smart-folder"
+						rid="b06355b7c949551"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="4"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-4
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 4
+							</field>
+							<field
+								name="StationRowName">
+								Station row 4
+							</field>
+							<field
+								name="Name">
+								Sta 4
+							</field>
+							<field
+								name="NameRow">
+								Name row 4
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 4
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 4
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 4
+							</field>
+							<field
+								name="NOS">
+								1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								1D849F
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 4
+							</field>
+							<field
+								name="LSM Offset">
+								1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 4
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 4
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								45
+							</field>
+							<field
+								name="Pressure">
+								50
+							</field>
+							<field
+								name="Num Sprinklers">
+								1
+							</field>
+							<field
+								name="Nozzle Flow">
+								22
+							</field>
+							<field
+								name="Back Flow">
+								10
+							</field>
+							<field
+								name="Sta Flow">
+								22
+							</field>
+							<field
+								name="Precip Rate">
+								0.57
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								65
+							</field>
+							<field
+								name="Row Spacing">
+								0
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="18.45s"
+							durationms="18450"
+							type="test-module"
+							rid="67b399d446b7394"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 4">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 4">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 4">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="1D849F">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 4">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 4">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 4">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 4">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="Sta 4">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-4">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 4">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 4">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:16.046"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:09:54"
+								time="01:16.046"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 4', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 4', $cmOffsetVal = '1', $cmAddRowName = 'LSMAddress row 4', $cmAddVal = '1D849F', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '1', $cmTagRowName = 'Tag row 4', $cmHoleRowName = 'Hole row 4', $cmHoelVal = '1', $cmAreaRowName = 'Area row 4', $cmAreaVal = 'G', $cmNameRow = 'Name row 4', $cmNameVal = 'Sta 4', $cmStationVal = '1-1-4', $cmStationRowName = 'Station row 4', $cmStationAccessRow = 'Row 4'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.1s"
+							durationms="3096"
+							type="test-module"
+							rid="121b98d0d680a91a"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="45">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="50">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="10">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="0.57">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="65">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="0">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:34.497"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="11:10:12"
+								time="01:34.497"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '45', $cmPressure = '50', $cmNumSprinklers = '1', $cmNozzleFlow = '22', $cmBackFlow = '10', $cmStaFlow = '22', $cmPrecipRate = '0.57', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '65', $cmRowSpacing = '0'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="21.07s"
+						durationms="21067"
+						type="smart-folder"
+						rid="6ba9d3781f50917"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="5"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-5
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 5
+							</field>
+							<field
+								name="StationRowName">
+								Station row 5
+							</field>
+							<field
+								name="Name">
+								Sta 5
+							</field>
+							<field
+								name="NameRow">
+								Name row 5
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 5
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 5
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 5
+							</field>
+							<field
+								name="NOS">
+								1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								1000EF
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 5
+							</field>
+							<field
+								name="LSM Offset">
+								1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 5
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 5
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								360
+							</field>
+							<field
+								name="Pressure">
+								50
+							</field>
+							<field
+								name="Num Sprinklers">
+								1
+							</field>
+							<field
+								name="Nozzle Flow">
+								22
+							</field>
+							<field
+								name="Back Flow">
+								10
+							</field>
+							<field
+								name="Sta Flow">
+								22
+							</field>
+							<field
+								name="Precip Rate">
+								0.57
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								56
+							</field>
+							<field
+								name="Row Spacing">
+								0
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="17.82s"
+							durationms="17815"
+							type="test-module"
+							rid="27db666243a4b2ce"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 5">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 5">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 5">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="1000EF">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 5">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 5">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 5">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 5">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="Sta 5">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-5">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 5">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 5">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:37.598"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:10:15"
+								time="01:37.598"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 5', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 5', $cmOffsetVal = '1', $cmAddRowName = 'LSMAddress row 5', $cmAddVal = '1000EF', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '1', $cmTagRowName = 'Tag row 5', $cmHoleRowName = 'Hole row 5', $cmHoelVal = '1', $cmAreaRowName = 'Area row 5', $cmAreaVal = 'G', $cmNameRow = 'Name row 5', $cmNameVal = 'Sta 5', $cmStationVal = '1-1-5', $cmStationRowName = 'Station row 5', $cmStationAccessRow = 'Row 5'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.25s"
+							durationms="3245"
+							type="test-module"
+							rid="70e72ed9e12fbd1"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="360">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="50">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="10">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="0.57">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="56">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="0">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:55.417"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="11:10:33"
+								time="01:55.417"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '360', $cmPressure = '50', $cmNumSprinklers = '1', $cmNozzleFlow = '22', $cmBackFlow = '10', $cmStaFlow = '22', $cmPrecipRate = '0.57', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '56', $cmRowSpacing = '0'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="21.52s"
+						durationms="21518"
+						type="smart-folder"
+						rid="167e88dc2b8f5ab4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="6"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-6
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 6
+							</field>
+							<field
+								name="StationRowName">
+								Station row 6
+							</field>
+							<field
+								name="Name">
+								Sta 6
+							</field>
+							<field
+								name="NameRow">
+								Name row 6
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 6
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 6
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 6
+							</field>
+							<field
+								name="NOS">
+								1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								100144
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 6
+							</field>
+							<field
+								name="LSM Offset">
+								1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 6
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 6
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								360
+							</field>
+							<field
+								name="Pressure">
+								50
+							</field>
+							<field
+								name="Num Sprinklers">
+								1
+							</field>
+							<field
+								name="Nozzle Flow">
+								22
+							</field>
+							<field
+								name="Back Flow">
+								10
+							</field>
+							<field
+								name="Sta Flow">
+								22
+							</field>
+							<field
+								name="Precip Rate">
+								0.57
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								65
+							</field>
+							<field
+								name="Row Spacing">
+								0
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="18.28s"
+							durationms="18280"
+							type="test-module"
+							rid="792e74522cb7b68"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 6">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 6">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 6">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="100144">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 6">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 6">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 6">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 6">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="Sta 6">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-6">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 6">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 6">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:58.667"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="11:10:36"
+								time="01:58.667"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 6', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 6', $cmOffsetVal = '1', $cmAddRowName = 'LSMAddress row 6', $cmAddVal = '100144', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '1', $cmTagRowName = 'Tag row 6', $cmHoleRowName = 'Hole row 6', $cmHoelVal = '1', $cmAreaRowName = 'Area row 6', $cmAreaVal = 'G', $cmNameRow = 'Name row 6', $cmNameVal = 'Sta 6', $cmStationVal = '1-1-6', $cmStationRowName = 'Station row 6', $cmStationAccessRow = 'Row 6'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.23s"
+							durationms="3230"
+							type="test-module"
+							rid="13f1df4626323cef"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="360">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="50">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="10">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="0.57">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="65">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="0">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="02:16.950"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:10:54"
+								time="02:16.950"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '360', $cmPressure = '50', $cmNumSprinklers = '1', $cmNozzleFlow = '22', $cmBackFlow = '10', $cmStaFlow = '22', $cmPrecipRate = '0.57', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '65', $cmRowSpacing = '0'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="21.89s"
+						durationms="21886"
+						type="smart-folder"
+						rid="8ef14a039c0864e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="7"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-7
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 7
+							</field>
+							<field
+								name="StationRowName">
+								Station row 7
+							</field>
+							<field
+								name="Name">
+								Sta 7
+							</field>
+							<field
+								name="NameRow">
+								Name row 7
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 7
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 7
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 7
+							</field>
+							<field
+								name="NOS">
+								1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								1000C6
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 7
+							</field>
+							<field
+								name="LSM Offset">
+								1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 7
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 7
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								360
+							</field>
+							<field
+								name="Pressure">
+								50
+							</field>
+							<field
+								name="Num Sprinklers">
+								1
+							</field>
+							<field
+								name="Nozzle Flow">
+								22
+							</field>
+							<field
+								name="Back Flow">
+								10
+							</field>
+							<field
+								name="Sta Flow">
+								22
+							</field>
+							<field
+								name="Precip Rate">
+								0.57
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								65
+							</field>
+							<field
+								name="Row Spacing">
+								0
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="18.66s"
+							durationms="18655"
+							type="test-module"
+							rid="15b4f52cf2fc4c4f"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 7">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 7">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 7">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="1000C6">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 7">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 7">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 7">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 7">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="Sta 7">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-7">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 7">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 7">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="02:20.184"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="11:10:58"
+								time="02:20.184"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 7', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 7', $cmOffsetVal = '1', $cmAddRowName = 'LSMAddress row 7', $cmAddVal = '1000C6', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '1', $cmTagRowName = 'Tag row 7', $cmHoleRowName = 'Hole row 7', $cmHoelVal = '1', $cmAreaRowName = 'Area row 7', $cmAreaVal = 'G', $cmNameRow = 'Name row 7', $cmNameVal = 'Sta 7', $cmStationVal = '1-1-7', $cmStationRowName = 'Station row 7', $cmStationAccessRow = 'Row 7'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.23s"
+							durationms="3226"
+							type="test-module"
+							rid="16e4d4187f1ebe0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="360">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="50">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="10">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="0.57">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="65">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="0">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="02:38.843"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:11:16"
+								time="02:38.843"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '360', $cmPressure = '50', $cmNumSprinklers = '1', $cmNozzleFlow = '22', $cmBackFlow = '10', $cmStaFlow = '22', $cmPrecipRate = '0.57', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '65', $cmRowSpacing = '0'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="22.99s"
+						durationms="22991"
+						type="smart-folder"
+						rid="11fdf608d8b66fe3"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="8"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-8
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 8
+							</field>
+							<field
+								name="StationRowName">
+								Station row 8
+							</field>
+							<field
+								name="Name">
+								Sta 8
+							</field>
+							<field
+								name="NameRow">
+								Name row 8
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 8
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 8
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 8
+							</field>
+							<field
+								name="NOS">
+								1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								10013E
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 8
+							</field>
+							<field
+								name="LSM Offset">
+								1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 8
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 8
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								360
+							</field>
+							<field
+								name="Pressure">
+								50
+							</field>
+							<field
+								name="Num Sprinklers">
+								1
+							</field>
+							<field
+								name="Nozzle Flow">
+								22
+							</field>
+							<field
+								name="Back Flow">
+								10
+							</field>
+							<field
+								name="Sta Flow">
+								22
+							</field>
+							<field
+								name="Precip Rate">
+								0.57
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								65
+							</field>
+							<field
+								name="Row Spacing">
+								0
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="19.27s"
+							durationms="19266"
+							type="test-module"
+							rid="1b5fef7a71a37ec"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 8">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 8">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 8">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="10013E">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 8">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 8">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 8">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 8">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="Sta 8">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-8">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 8">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 8">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="02:42.072"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:11:20"
+								time="02:42.072"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 8', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 8', $cmOffsetVal = '1', $cmAddRowName = 'LSMAddress row 8', $cmAddVal = '10013E', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '1', $cmTagRowName = 'Tag row 8', $cmHoleRowName = 'Hole row 8', $cmHoelVal = '1', $cmAreaRowName = 'Area row 8', $cmAreaVal = 'G', $cmNameRow = 'Name row 8', $cmNameVal = 'Sta 8', $cmStationVal = '1-1-8', $cmStationRowName = 'Station row 8', $cmStationAccessRow = 'Row 8'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.72s"
+							durationms="3719"
+							type="test-module"
+							rid="1949dfb74ecc97e8"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="SidePanel"
+							displayName="SidePanel"
+							moduleid="c5fecbf7-dfa7-4218-a15c-bf0d33bc3a99"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmSprinklerModel"
+									value="730">
+								</varbinding>
+								<varbinding
+									name="cmNozzleModel"
+									value="33">
+								</varbinding>
+								<varbinding
+									name="cmArc"
+									value="360">
+								</varbinding>
+								<varbinding
+									name="cmPressure"
+									value="50">
+								</varbinding>
+								<varbinding
+									name="cmNumSprinklers"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmNozzleFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmBackFlow"
+									value="10">
+								</varbinding>
+								<varbinding
+									name="cmStaFlow"
+									value="22">
+								</varbinding>
+								<varbinding
+									name="cmPrecipRate"
+									value="0.57">
+								</varbinding>
+								<varbinding
+									name="cmPattern"
+									value="Tirangle">
+								</varbinding>
+								<varbinding
+									name="cmSprinklerSpacing"
+									value="65">
+								</varbinding>
+								<varbinding
+									name="cmRowSpacing"
+									value="0">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="03:01.342"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:11:39"
+								time="03:01.342"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmSprinklerModel = '730', $cmNozzleModel = '33', $cmArc = '360', $cmPressure = '50', $cmNumSprinklers = '1', $cmNozzleFlow = '22', $cmBackFlow = '10', $cmStaFlow = '22', $cmPrecipRate = '0.57', $cmPattern = 'Tirangle', $cmSprinklerSpacing = '65', $cmRowSpacing = '0'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1.4m"
+						durationms="82559"
+						type="smart-folder"
+						rid="1ef020147c4a8e39"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="1"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="StationLevelTest"
+						testcontainerid="70bff4a2-a05e-412d-9c4a-366a31b1f719"
+						headertext="StationLevelTest"
+						displayName="StationLevelTest"
+						iteration="9"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="Station">
+								1-1-9
+							</field>
+							<field
+								name="StationAccessRow">
+								Row 9
+							</field>
+							<field
+								name="StationRowName">
+								Station row 9
+							</field>
+							<field
+								name="Name">
+								Sta 9
+							</field>
+							<field
+								name="NameRow">
+								Name row 9
+							</field>
+							<field
+								name="Area">
+								G
+							</field>
+							<field
+								name="AreaRowName">
+								Area row 9
+							</field>
+							<field
+								name="Hole">
+								1
+							</field>
+							<field
+								name="HoleRowName">
+								Hole row 9
+							</field>
+							<field
+								name="Tag">
+								1
+							</field>
+							<field
+								name="TagRowName">
+								Tag row 9
+							</field>
+							<field
+								name="NOS">
+								1
+							</field>
+							<field
+								name="NOSRowName">
+								Number of Sprinklers row
+							</field>
+							<field
+								name="LSM Address">
+								10015B
+							</field>
+							<field
+								name="AddRowName">
+								LSMAddress row 9
+							</field>
+							<field
+								name="LSM Offset">
+								1
+							</field>
+							<field
+								name="OffsetRowName">
+								LSMOffset row 9
+							</field>
+							<field
+								name="Wire Path">
+								1001
+							</field>
+							<field
+								name="WPRowName">
+								Wire Path row 9
+							</field>
+							<field
+								name="Sprinkler Model">
+								730
+							</field>
+							<field
+								name="Nozzle Model">
+								33
+							</field>
+							<field
+								name="Arc">
+								360
+							</field>
+							<field
+								name="Pressure">
+								50
+							</field>
+							<field
+								name="Num Sprinklers">
+								1
+							</field>
+							<field
+								name="Nozzle Flow">
+								22
+							</field>
+							<field
+								name="Back Flow">
+								10
+							</field>
+							<field
+								name="Sta Flow">
+								22
+							</field>
+							<field
+								name="Precip Rate">
+								0.57
+							</field>
+							<field
+								name="Pattern">
+								Tirangle
+							</field>
+							<field
+								name="Sprinkler Spacing">
+								65
+							</field>
+							<field
+								name="Row Spacing">
+								0
+							</field>
+						</datarow>
+						<activity
+							result="Failed"
+							duration="1.4m"
+							durationms="82558"
+							type="test-module"
+							rid="1429d9c185a05b9e"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="PopulateColumn"
+							displayName="PopulateColumn"
+							moduleid="0ad50007-6e74-4240-8565-3dca589c69bc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="cmWPRowName"
+									value="Wire Path row 9">
+								</varbinding>
+								<varbinding
+									name="cmWPValue"
+									value="1001">
+								</varbinding>
+								<varbinding
+									name="cmOffsetRowName"
+									value="LSMOffset row 9">
+								</varbinding>
+								<varbinding
+									name="cmOffsetVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAddRowName"
+									value="LSMAddress row 9">
+								</varbinding>
+								<varbinding
+									name="cmAddVal"
+									value="10015B">
+								</varbinding>
+								<varbinding
+									name="cmNOSRowName"
+									value="Number of Sprinklers row">
+								</varbinding>
+								<varbinding
+									name="cmNOSVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmTagRowName"
+									value="Tag row 9">
+								</varbinding>
+								<varbinding
+									name="cmHoleRowName"
+									value="Hole row 9">
+								</varbinding>
+								<varbinding
+									name="cmHoelVal"
+									value="1">
+								</varbinding>
+								<varbinding
+									name="cmAreaRowName"
+									value="Area row 9">
+								</varbinding>
+								<varbinding
+									name="cmAreaVal"
+									value="G">
+								</varbinding>
+								<varbinding
+									name="cmNameRow"
+									value="Name row 9">
+								</varbinding>
+								<varbinding
+									name="cmNameVal"
+									value="Sta 9">
+								</varbinding>
+								<varbinding
+									name="cmStationVal"
+									value="1-1-9">
+								</varbinding>
+								<varbinding
+									name="cmStationRowName"
+									value="Station row 9">
+								</varbinding>
+								<varbinding
+									name="cmStationAccessRow"
+									value="Row 9">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="03:05.065"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:11:43"
+								time="03:05.065"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$cmWPRowName = 'Wire Path row 9', $cmWPValue = '1001', $cmOffsetRowName = 'LSMOffset row 9', $cmOffsetVal = '1', $cmAddRowName = 'LSMAddress row 9', $cmAddVal = '10015B', $cmNOSRowName = 'Number of Sprinklers row', $cmNOSVal = '1', $cmTagRowName = 'Tag row 9', $cmHoleRowName = 'Hole row 9', $cmHoelVal = '1', $cmAreaRowName = 'Area row 9', $cmAreaVal = 'G', $cmNameRow = 'Name row 9', $cmNameVal = 'Sta 9', $cmStationVal = '1-1-9', $cmStationRowName = 'Station row 9', $cmStationAccessRow = 'Row 9'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="04:27.622"
+								timeRelativeToTestModuleStartTime="01:22.557"
+								timeWallClock="11:13:05"
+								time="04:27.622"
+								level="Error"
+								category="Module">
+								<message>
+									The test run has been aborted by the user.
+								</message>
+								<metainfo
+									loglvl="Error">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
